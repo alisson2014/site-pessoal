@@ -1,10 +1,12 @@
+import { BrowserRouter } from "react-router-dom";
 import Header from "./components/Molecules/Header";
+import AppRouter from "./routes";
 
 const App = () => {
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
 }
 
