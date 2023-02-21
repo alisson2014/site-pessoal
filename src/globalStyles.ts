@@ -8,8 +8,9 @@ export const ResetCss = createGlobalStyle`
   }
 
   html, body {
-        animation: fadeIn 0.8s both;
-        font-family: "Inter", sans-serif;
+      animation: fadeIn 0.8s both;
+      font-family: "Inter", sans-serif;
+      background: linear-gradient(#90c1df, #557edf);
     }
 
   body * {
