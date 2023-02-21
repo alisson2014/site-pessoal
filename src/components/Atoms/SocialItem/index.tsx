@@ -6,7 +6,7 @@ interface ISocialItem {
   children: any
 };
 
-export const SocialItem = ({ href, target, children }: ISocialItem) => {
+const SocialItem = ({ href, target, children }: ISocialItem) => {
   return (
     <Atoms.SocialItem>
       <a href={href} target={target}>
@@ -15,3 +15,5 @@ export const SocialItem = ({ href, target, children }: ISocialItem) => {
     </Atoms.SocialItem>
   );
 };
+
+export default SocialItem;

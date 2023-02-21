@@ -1,7 +1,7 @@
 import * as Atoms from "./atoms"
 import { MdEmail } from "react-icons/md"
 import { FaLinkedinIn, FaGithub } from "react-icons/fa"
-import { SocialItem } from "../../Atoms/SocialItem";
+import SocialItem from "../../Atoms/SocialItem";
 
 const Footer = () => {
   return (

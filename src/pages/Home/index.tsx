@@ -1,6 +1,6 @@
 import { FlexBox } from "./atoms";
-import Button from "../../components/Atoms/Button";
 import { useEffect, useState } from "react";
+import { Button } from "../../components";
 
 const Home = () => {
   const [user, setUser] = useState({ avatar: "" });
