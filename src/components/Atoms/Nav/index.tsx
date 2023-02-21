@@ -1,5 +1,5 @@
-import * as Atoms from "./atoms"
-import LinkTo from "../LinkTo"
+import * as Atoms from "./atoms";
+import LinkTo from "../LinkTo";
 
 const Nav = () => {
   return (
@@ -11,7 +11,7 @@ const Nav = () => {
         <LinkTo route="/abilities" section="Habilidades" />
       </Atoms.List>
     </Atoms.Nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
