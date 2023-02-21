@@ -1,12 +1,13 @@
+import { HeaderContainer } from "./atoms";
 import Logo from "../../Atoms/Logo";
 import Nav from "../../Atoms/Nav";
 
 const Header = () => {
   return (
-    <header>
+    <HeaderContainer>
       <Logo />
       <Nav />
-    </header>
+    </HeaderContainer>
   );
 };
 
