@@ -1,21 +1,14 @@
 import * as Atoms from "./atoms"
+import LinkTo from "../LinkTo"
 
 const Nav = () => {
   return (
     <Atoms.Nav>
       <Atoms.List>
-        <li>
-          <a href="/home">Home</a>
-        </li>
-        <li>
-          <a href="/about">Sobre</a>
-        </li>
-        <li>
-          <a href="/projects">Projetos</a>
-        </li>
-        <li>
-          <a href="/abilities">Habilidades</a>
-        </li>
+        <LinkTo route="/home" section="Home" />
+        <LinkTo route="/about" section="Sobre" />
+        <LinkTo route="/projects" section="Projetos" />
+        <LinkTo route="/abilities" section="Habilidades" />
       </Atoms.List>
     </Atoms.Nav>
   )
