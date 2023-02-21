@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import Header from "../Header";
 import { Container } from "./atoms";
 
@@ -6,9 +7,7 @@ const Layout = ({ children }: any) => {
     <Container>
       <Header />
       {children}
-      <footer>
-        Footer
-      </footer>
+      <Footer />
     </Container>
   );
 };
