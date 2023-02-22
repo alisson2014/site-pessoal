@@ -4,6 +4,7 @@ import LinkTo from "./Atoms/LinkTo";
 import Logo from "./Atoms/Logo";
 import Nav from "./Atoms/Nav";
 import SocialItem from "./Atoms/SocialItem";
+import Avatar from "./Atoms/Avatar";
 
 //TODO: Molecules
 import Footer from "./Molecules/Footer";
@@ -17,6 +18,7 @@ export {
   LinkTo,
   Logo,
   Nav,
+  Avatar,
   SocialItem,
   Footer,
   Header,
