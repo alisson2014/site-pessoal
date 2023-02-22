@@ -5,27 +5,6 @@ export const FlexBox = styled.div`
   align-items: center;
   justify-content: space-around;
 
-  .sobre {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-
-    .ola {
-      font-size: 28px;
-      font-weight: 400;
-    }
-
-    .nome {
-      font-size: 52px;
-      font-weight: 600;
-    }
-
-    .dev {
-      font-size: 28px;
-      font-weight: 400;
-    }
-  }
-
   .foto-github {
     border-radius: 50%;
     width: 300px;
@@ -41,4 +20,19 @@ export const FlexBox = styled.div`
       transform: translateY(0);
     }
   }
+`
+export const Tittle = styled.h1`
+  font-size: 54px;
+  font-weight: 600;
+`
+
+export const TittleContent = styled.span`
+  font-size: 28px;
+  font-weight: 400;
+`
+
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 `

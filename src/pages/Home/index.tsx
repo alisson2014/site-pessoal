@@ -1,4 +1,4 @@
-import { FlexBox } from "./atoms";
+import * as Atoms from "./atoms"
 import { useEffect, useState } from "react";
 import { Button } from "../../components";
 
@@ -16,25 +16,25 @@ const Home = () => {
   }, []);
 
   return (
-    <FlexBox>
-      <div className="sobre">
-        <span className="ola">
+    <Atoms.FlexBox>
+      <Atoms.Content>
+        <Atoms.TittleContent>
           Olá, eu sou o
-        </span>
-        <span className="nome">
+        </Atoms.TittleContent>
+        <Atoms.Tittle>
           Alisson Vinicius
-        </span>
-        <span className="dev">
+        </Atoms.Tittle>
+        <Atoms.TittleContent>
           Desenvolvedor Web/Mobile
-        </span>
+        </Atoms.TittleContent>
         <Button href="https://www.linkedin.com/in/alisson-vinicius-morais-de-almeida-027553252"
           target="_blank" text="Linkedin"
         />
-      </div>
+      </Atoms.Content>
       <div className="foto-github">
         <img src={user.avatar} alt="Alisson" className="foto-github" />
       </div>
-    </FlexBox>
+    </Atoms.FlexBox>
   );
 };
 
