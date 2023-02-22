@@ -17,7 +17,6 @@ const Footer = () => {
           <MdEmail />
         </SocialItem>
       </Atoms.SocialList>
-      <div>...</div>
     </Atoms.FooterContainer>
   );
 };

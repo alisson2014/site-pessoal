@@ -9,8 +9,9 @@ export const FooterContainer = styled.footer`
 
 export const SocialList = styled.ul`
   list-style: none;
-  width: 15%;
+  width: 70%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 32px;
 `
