@@ -1,16 +1,19 @@
 import * as Atoms from "./atoms"
 import { useEffect, useState } from "react";
-import { Button } from "../../components";
+import { Avatar, Button } from "../../components";
 
 const Home = () => {
-  const [user, setUser] = useState({ avatar: "" });
+  const [user, setUser] = useState({
+    avatar: "", name: ""
+  });
 
   useEffect(() => {
     fetch("https://api.github.com/users/alisson2014")
       .then(response => response.json())
       .then(data => {
         setUser({
-          avatar: data.avatar_url
+          avatar: data.avatar_url,
+          name: data.name
         })
       })
   }, []);
@@ -31,9 +34,7 @@ const Home = () => {
           target="_blank" text="Linkedin"
         />
       </Atoms.Content>
-      <div className="foto-github">
-        <img src={user.avatar} alt="Alisson" className="foto-github" />
-      </div>
+      <Avatar src={user.avatar} alt={user.name} />
     </Atoms.FlexBox>
   );
 };
