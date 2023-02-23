@@ -1,6 +1,16 @@
+import * as Atoms from "./atoms";
+
 const Projects = () => {
   return (
-    <div>Projetos</div>
+    <Atoms.Container>
+      <Atoms.Tittle>Projetos</Atoms.Tittle>
+      <Atoms.BoxContent>
+        <div>Box</div>
+        <div>Box</div>
+        <div>Box</div>
+      </Atoms.BoxContent>
+      <a href="">Repositorios no github</a>
+    </Atoms.Container>
   );
 };
 
