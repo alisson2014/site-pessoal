@@ -4,12 +4,20 @@ const Projects = () => {
   return (
     <Atoms.Container>
       <Atoms.Tittle>Projetos</Atoms.Tittle>
-      <Atoms.BoxContent>
-        <div>Box</div>
-        <div>Box</div>
-        <div>Box</div>
-      </Atoms.BoxContent>
-      <a href="">Repositorios no github</a>
+      <Atoms.BoxContainer>
+        <Atoms.Box>
+          <Atoms.BoxText>Em breve</Atoms.BoxText>
+        </Atoms.Box>
+        <Atoms.Box>
+          <Atoms.BoxText>Em breve</Atoms.BoxText>
+        </Atoms.Box>
+        <Atoms.Box>
+          <Atoms.BoxText>Em breve</Atoms.BoxText>
+        </Atoms.Box>
+      </Atoms.BoxContainer>
+      <Atoms.Link href="/">
+        Repositórios no github
+      </Atoms.Link>
     </Atoms.Container>
   );
 };
