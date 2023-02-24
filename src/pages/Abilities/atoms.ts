@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 90px;
+  gap: 55px;
 `
 
 export const Tittle = styled.h2`
@@ -13,23 +13,10 @@ export const Tittle = styled.h2`
 `
 
 export const ContainerAb = styled.div`
-  width: 75vw;
+  width: 70vw;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   gap: 25px;
-`
-
-export const ContentAb = styled.div`
-  width: 9rem;
-  height: 9rem;
-  padding: 10px;
-  border-radius: 11px;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  background-color: salmon;
 `

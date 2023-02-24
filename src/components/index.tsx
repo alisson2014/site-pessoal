@@ -5,6 +5,7 @@ import Logo from "./Atoms/Logo";
 import Nav from "./Atoms/Nav";
 import SocialItem from "./Atoms/SocialItem";
 import Avatar from "./Atoms/Avatar";
+import AbilitieCard from "./Atoms/Abilitie";
 
 //TODO: Molecules
 import Footer from "./Molecules/Footer";
@@ -22,5 +23,6 @@ export {
   SocialItem,
   Footer,
   Header,
-  Layout
+  Layout,
+  AbilitieCard
 };

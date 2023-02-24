@@ -5,57 +5,29 @@ import {
   DiJavascript,
   DiGit,
   DiGithubBadge,
-  DiReact,
-  DiSass
+  DiReact
 } from "react-icons/di";
 
-import { SiTypescript, SiStyledcomponents, SiJest, SiSass } from "react-icons/si"
+import { SiTypescript, SiStyledcomponents, SiJest, SiSass } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa"
+import { AbilitieCard } from "../../components";
 
 const Abilities = () => {
   return (
     <Atoms.Container>
       <Atoms.Tittle>Habilidades</Atoms.Tittle>
       <Atoms.ContainerAb>
-        <Atoms.ContentAb>
-          <h3>HTML5</h3>
-          <DiHtml5 />
-        </Atoms.ContentAb>
-        <Atoms.ContentAb>
-          <h3>CSS3</h3>
-          <DiCss3 />
-        </Atoms.ContentAb>
-        <Atoms.ContentAb>
-          <h3>JavaScript</h3>
-          <DiJavascript />
-        </Atoms.ContentAb>
-        <Atoms.ContentAb>
-          <h3>Git</h3>
-          <DiGit />
-        </Atoms.ContentAb>
-        <Atoms.ContentAb>
-          <h3>Github</h3>
-          <DiGithubBadge />
-        </Atoms.ContentAb>
-        <Atoms.ContentAb>
-          <h3>React</h3>
-          <DiReact />
-        </Atoms.ContentAb>
-        <Atoms.ContentAb>
-          <h3>TypeScript</h3>
-          <SiTypescript />
-        </Atoms.ContentAb>
-        <Atoms.ContentAb>
-          <h3>Styled Components</h3>
-          <SiStyledcomponents />
-        </Atoms.ContentAb>
-        <Atoms.ContentAb>
-          <h3>Sass</h3>
-          <SiSass />
-        </Atoms.ContentAb>
-        <Atoms.ContentAb>
-          <h3>Jest</h3>
-          <SiJest />
-        </Atoms.ContentAb>
+        <AbilitieCard tittle="HTML5" children={<DiHtml5 />} />
+        <AbilitieCard tittle="CSS3" children={<DiCss3 />} />
+        <AbilitieCard tittle="JavaScript" children={<DiJavascript />} />
+        <AbilitieCard tittle="Git" children={<DiGit />} />
+        <AbilitieCard tittle="Github" children={<DiGithubBadge />} />
+        <AbilitieCard tittle="React" children={<DiReact />} />
+        <AbilitieCard tittle="TypeScript" children={<SiTypescript />} />
+        <AbilitieCard tittle="Bootstrap" children={<FaBootstrap />}
+        />
+        <AbilitieCard tittle="Styled components" children={<SiStyledcomponents />} />
+        <AbilitieCard tittle="Jest" children={<SiJest />} />
       </Atoms.ContainerAb>
       <div>Baixe meu curriculo</div>
     </Atoms.Container>
