@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 120px;
+  gap: 100px;
 `
 
 export const Tittle = styled.h2`
@@ -15,14 +15,14 @@ export const Tittle = styled.h2`
 export const BoxContainer = styled.div`
   display: flex;
   align-items: center;
-  gap: 90px;
+  gap: 75px;
 `
 
 export const Box = styled.div`
   background-color: whitesmoke;
-  width: 20rem;
-  height: 11rem;
-  border-radius: 1.6rem;
+  width: 18rem;
+  height: 10rem;
+  border-radius: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;

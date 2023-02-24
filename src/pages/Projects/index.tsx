@@ -15,7 +15,7 @@ const Projects = () => {
           <Atoms.BoxText>Em breve</Atoms.BoxText>
         </Atoms.Box>
       </Atoms.BoxContainer>
-      <Atoms.Link href="/">
+      <Atoms.Link href="https://github.com/alisson2014?tab=repositories" target="_blank">
         Repositórios no github
       </Atoms.Link>
     </Atoms.Container>
