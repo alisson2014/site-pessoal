@@ -6,10 +6,10 @@ const About = () => {
       <Atoms.Content>
         <Atoms.Tittle>Sobre mim</Atoms.Tittle>
         <Atoms.TextContent>
-          Meu nome é alisson e sou apaixonado por tecnologia, atualmente estou cursando Análise e desenvolvimento de sistemas no Integrado.
+          Meu nome é alisson e sou apaixonado por tecnologia, atualmente estou cursando Análise e desenvolvimento de sistemas no Integrado e estudando back end com java e spring boot.
         </Atoms.TextContent>
         <Atoms.TextContent>
-          Desenvolvo soluções em front end, usando React para web e React Native para mobile.
+          Desenvolvo soluções em tecnologia, usando as melhores tecnologias do mercado, como o ecossistema ReactJS.
         </Atoms.TextContent>
       </Atoms.Content>
       <div>
