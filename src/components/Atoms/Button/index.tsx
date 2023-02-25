@@ -1,19 +1,26 @@
-import * as Atoms from "./atoms"
-
-interface IButton {
-  href: string
-  target?: string
+import { Component } from "./atoms";
+interface IButtonProps {
   text: string
-}
+  color?: string
+  href?: string
+  target?: string
+};
 
-const Button = ({ href, target, text }: IButton) => {
+const Button = ({
+  text,
+  color,
+  href,
+  target
+}: IButtonProps) => {
+
   return (
-    <Atoms.Button>
-      <a href={href} target={target}>
+    <Component color={color}>
+      <a href={href} target={target ? target : "_blank"}>
         {text}
       </a>
-    </Atoms.Button>
-  )
-}
+    </Component>
+  );
+};
 
-export default Button
+
+export default Button;

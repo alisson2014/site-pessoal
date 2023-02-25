@@ -1,10 +1,10 @@
 import styled from "styled-components"
 
-export const Button = styled.button`
-  width: 455px;
-  height: 84px;
+export const Component = styled.button`
+  background-color: ${({ color }) => (color ? color : "#f5f5f5")};
+  width: 27vw;
+  height: 10vh;
   text-align: center;
-  background-color: whitesmoke;
   font-size: 2.2em;
   font-weight: 400;
   border: 0;
@@ -12,8 +12,8 @@ export const Button = styled.button`
   cursor: pointer;
 
   :hover {
-    letter-spacing: 11px;
-    transform: scale(1.015);
+    letter-spacing: 10px;
+    transform: scale(1.01);
     transition: all 0.6s ease-in-out;
   }
 

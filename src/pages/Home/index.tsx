@@ -30,9 +30,7 @@ const Home = () => {
         <Atoms.TittleContent>
           Desenvolvedor Web/Mobile
         </Atoms.TittleContent>
-        <Button href="https://www.linkedin.com/in/alisson-vinicius-morais-de-almeida-027553252"
-          target="_blank" text="Linkedin"
-        />
+        <Button href="https://www.linkedin.com/in/alisson-vinicius-morais-de-almeida-027553252/" text="Linkedin" />
       </Atoms.Content>
       <Avatar src={user.avatar} alt={user.name} />
     </Atoms.FlexBox>
