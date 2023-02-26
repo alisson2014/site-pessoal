@@ -13,6 +13,7 @@ import Header from "./Molecules/Header";
 import ContentMe from "./Molecules/Me";
 import AboutMe from "./Molecules/AboutMe";
 import ProjectsBox from "./Molecules/ProjectsBox";
+import CardBox from "./Molecules/CardBox";
 
 //TODO: Body (organism)
 import Layout from "./Molecules/Layout";
@@ -30,5 +31,6 @@ export {
   AbilitieCard,
   ContentMe,
   AboutMe,
-  ProjectsBox
+  ProjectsBox,
+  CardBox
 };
