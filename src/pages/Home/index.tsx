@@ -1,7 +1,6 @@
-import * as Atoms from "./atoms"
 import { useEffect, useState } from "react";
-import { Avatar, Button } from "../../components";
-import { Tittle } from "../../components/Atoms/Tittles";
+import { Avatar, ContentMe } from "../../components";
+import { HomeContainer } from "./atoms";
 
 const Home = () => {
   const [user, setUser] = useState({
@@ -20,21 +19,10 @@ const Home = () => {
   }, []);
 
   return (
-    <Atoms.FlexBox>
-      <Atoms.Content>
-        <Atoms.TittleContent>
-          Olá, eu sou o
-        </Atoms.TittleContent>
-        <Tittle>
-          Alisson Vinicius
-        </Tittle>
-        <Atoms.TittleContent>
-          Desenvolvedor Web/Mobile
-        </Atoms.TittleContent>
-        <Button href="https://www.linkedin.com/in/alisson-vinicius-morais-de-almeida-027553252/" text="Linkedin" />
-      </Atoms.Content>
+    <HomeContainer>
+      <ContentMe />
       <Avatar src={user.avatar} alt={user.name} />
-    </Atoms.FlexBox>
+    </HomeContainer>
   );
 };
 

@@ -7,9 +7,9 @@ interface IAvatar {
 
 const Avatar = ({ src, alt }: IAvatar) => {
   return (
-    <div>
+    <section>
       <AvatarImg src={src} alt={alt} />
-    </div>
+    </section>
   );
 };
 
