@@ -1,5 +1,5 @@
 import * as Atoms from "./atoms";
-import LinkTo from "../LinkTo";
+import LinkTo from "../../Atoms/LinkTo";
 
 const Nav = () => {
   return (

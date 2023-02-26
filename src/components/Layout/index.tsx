@@ -1,5 +1,5 @@
-import Footer from "../Footer";
-import Header from "../Header";
+import Footer from "../Organism/Footer";
+import Header from "../Organism/Header";
 import { Container } from "./atoms";
 
 const Layout = ({ children }: any) => {

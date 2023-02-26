@@ -1,5 +1,5 @@
-import Logo from "../../Atoms/Logo";
-import Nav from "../../Atoms/Nav";
+import Logo from "../../Molecules/Logo";
+import Nav from "../../Molecules/Nav";
 import { HeaderContainer } from "./atoms";
 
 const Header = () => {
