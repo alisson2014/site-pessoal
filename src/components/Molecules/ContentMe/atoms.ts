@@ -3,10 +3,10 @@ import styled from "styled-components"
 export const Content = styled.section`
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 `
 
 export const MeTittle = styled.span`
-  font-size: 28px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 300;
 `

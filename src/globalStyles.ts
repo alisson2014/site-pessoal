@@ -10,11 +10,11 @@ export const ResetCss = createGlobalStyle`
   html, body {
       animation: fadeIn 0.8s both;
       font-family: "Inter", sans-serif;
-      background: linear-gradient(#557edf, #90c1df);
+      background: linear-gradient(to top left, #20b0ca, #2f8ad4);
     }
 
   body * {
-    color: #252525;
+    color: #fffafa;
   }
 
   @keyframes fadeIn {

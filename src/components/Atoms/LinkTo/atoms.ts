@@ -8,8 +8,7 @@ export const LinkLi = styled.li`
   }
 
   a:hover {
-    transition: all 0.8s;
-    opacity: 0.9;
-    color: #f8f8ff;
+    transition: all 0.9s;
+    color: #182118;
   }
 `

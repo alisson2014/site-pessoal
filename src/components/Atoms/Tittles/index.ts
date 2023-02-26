@@ -11,6 +11,6 @@ export const SubTittle = styled.h2`
 `
 
 export const ThirdTittle = styled.h3`
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 500;
 `

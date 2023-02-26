@@ -10,11 +10,11 @@ export const ProjectsContainer = styled.main`
 export const Link = styled.a`
   text-decoration: none;
   font-size: 1.35rem;
-  font-weight: 400;
+  font-weight: 500;
 
   :hover {
     transition: all 0.8s;
-    color: #f8f8ff;
+    color: #141414;
     opacity: 0.9;
   }
 `

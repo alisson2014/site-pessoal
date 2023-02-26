@@ -3,13 +3,13 @@ import styled from "styled-components"
 export const BoxContainer = styled.section`
   display: flex;
   align-items: center;
-  gap: 75px;
+  gap: 70px;
 `
 
 export const Box = styled.div`
   background-color: whitesmoke;
-  width: 18rem;
-  height: 10rem;
+  width: 16.5rem;
+  height: 9rem;
   border-radius: 1.5rem;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@ export const Box = styled.div`
 
 export const BoxText = styled.div`
   width: 100%;
-  background-color: silver;
+  background-color: #252525;
   text-align: center;
   text-transform: uppercase;
   font-size: 1.3rem;

@@ -10,9 +10,17 @@ export const Card = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background-color: whitesmoke;
+  background-color: #252525;
+  opacity: 0.9;
+  cursor: pointer;
+
+  :hover {
+    transition: all .5s;
+    opacity: 1;
+  }
 `
 
 export const Img = styled.div`
   font-size: 4.8em;
+  font-weight: 400;
 `
