@@ -10,7 +10,8 @@ import AbilitieCard from "./Atoms/Abilitie";
 //TODO: Molecules
 import Footer from "./Molecules/Footer";
 import Header from "./Molecules/Header";
-import ContentMe from "./Molecules/Me"
+import ContentMe from "./Molecules/Me";
+import AboutMe from "./Molecules/AboutMe";
 
 //TODO: Body (organism)
 import Layout from "./Molecules/Layout";
@@ -26,5 +27,6 @@ export {
   Header,
   Layout,
   AbilitieCard,
-  ContentMe
+  ContentMe,
+  AboutMe
 };
