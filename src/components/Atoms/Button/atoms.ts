@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const Component = styled.button`
   background-color: ${({ color }) => (color ? color : "#252525")};
-  width: 27vw;
-  height: 10vh;
+  width: 26vw;
+  height: 9.5vh;
   text-align: center;
   font-size: 2.2em;
   font-weight: 500;

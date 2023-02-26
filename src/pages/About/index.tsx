@@ -6,7 +6,7 @@ const About = () => {
     <AboutContainer>
       <AboutMe />
       <section>
-        A decidir
+        ...
       </section>
     </AboutContainer>
   );
