@@ -10,12 +10,13 @@ import {
 
 import { SiTypescript, SiStyledcomponents, SiJest, SiSass } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa"
-import { AbilitieCard } from "../../components";
+import { AbilitieCard, Button } from "../../components";
+import { SubTittle } from "../../components/Atoms/Tittles";
 
 const Abilities = () => {
   return (
     <Atoms.Container>
-      <Atoms.Tittle>Habilidades</Atoms.Tittle>
+      <SubTittle>Habilidades</SubTittle>
       <Atoms.ContainerAb>
         <AbilitieCard tittle="HTML5" children={<DiHtml5 />} />
         <AbilitieCard tittle="CSS3" children={<DiCss3 />} />
@@ -29,7 +30,6 @@ const Abilities = () => {
         <AbilitieCard tittle="Styled components" children={<SiStyledcomponents />} />
         <AbilitieCard tittle="Jest" children={<SiJest />} />
       </Atoms.ContainerAb>
-      <div>Baixe meu curriculo</div>
     </Atoms.Container>
   );
 };

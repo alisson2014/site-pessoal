@@ -7,11 +7,6 @@ export const Container = styled.div`
   gap: 100px;
 `
 
-export const Tittle = styled.h2`
-  font-size: 56px;
-  font-weight: 600;
-`
-
 export const BoxContainer = styled.div`
   display: flex;
   align-items: center;

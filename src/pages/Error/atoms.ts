@@ -7,7 +7,7 @@ export const NFContainer = styled.div`
   justify-content: center;
 `
 
-export const Tittle = styled.div`
+export const ContentTittle = styled.div`
   display: flex;
   gap: 90px;
 

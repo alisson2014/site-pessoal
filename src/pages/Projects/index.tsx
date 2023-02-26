@@ -1,9 +1,10 @@
+import { SubTittle } from "../../components/Atoms/Tittles";
 import * as Atoms from "./atoms";
 
 const Projects = () => {
   return (
     <Atoms.Container>
-      <Atoms.Tittle>Projetos</Atoms.Tittle>
+      <SubTittle>Projetos</SubTittle>
       <Atoms.BoxContainer>
         <Atoms.Box>
           <Atoms.BoxText>Em breve</Atoms.BoxText>

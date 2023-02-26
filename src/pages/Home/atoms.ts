@@ -5,10 +5,6 @@ export const FlexBox = styled.div`
   align-items: center;
   justify-content: space-around;
 `
-export const Tittle = styled.h1`
-  font-size: 54px;
-  font-weight: 600;
-`
 
 export const TittleContent = styled.span`
   font-size: 28px;

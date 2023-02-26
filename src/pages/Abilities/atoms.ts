@@ -7,11 +7,6 @@ export const Container = styled.div`
   gap: 55px;
 `
 
-export const Tittle = styled.h2`
-  font-size: 56px;
-  font-weight: 600;
-`
-
 export const ContainerAb = styled.div`
   width: 70vw;
   display: flex;

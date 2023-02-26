@@ -13,10 +13,6 @@ export const Card = styled.div`
   background-color: whitesmoke;
 `
 
-export const TittleCard = styled.h3`
-  font-weight: 400;
-`
-
 export const Img = styled.div`
   font-size: 4.8em;
 `

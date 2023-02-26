@@ -1,3 +1,4 @@
+import { ThirdTittle } from "../Tittles";
 import * as Atoms from "./atoms";
 
 interface IAbilitieCard {
@@ -8,7 +9,7 @@ interface IAbilitieCard {
 const AbilitieCard = ({ tittle, children }: IAbilitieCard) => {
   return (
     <Atoms.Card>
-      <Atoms.TittleCard>{tittle}</Atoms.TittleCard>
+      <ThirdTittle>{tittle}</ThirdTittle>
       <Atoms.Img>{children}</Atoms.Img>
     </Atoms.Card>
   )

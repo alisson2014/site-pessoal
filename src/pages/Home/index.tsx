@@ -1,6 +1,7 @@
 import * as Atoms from "./atoms"
 import { useEffect, useState } from "react";
 import { Avatar, Button } from "../../components";
+import { Tittle } from "../../components/Atoms/Tittles";
 
 const Home = () => {
   const [user, setUser] = useState({
@@ -24,9 +25,9 @@ const Home = () => {
         <Atoms.TittleContent>
           Olá, eu sou o
         </Atoms.TittleContent>
-        <Atoms.Tittle>
+        <Tittle>
           Alisson Vinicius
-        </Atoms.Tittle>
+        </Tittle>
         <Atoms.TittleContent>
           Desenvolvedor Web/Mobile
         </Atoms.TittleContent>
