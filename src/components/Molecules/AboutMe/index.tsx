@@ -7,7 +7,7 @@ const AboutMe = () => {
     <Content>
       <SubTittle>Sobre mim</SubTittle>
       <TextContent>
-        Meu nome é alisson e sou apaixonado por tecnologia, atualmente estou cursando Análise e desenvolvimento de sistemas no Integrado e estudando back end com java e spring boot.
+        Meu nome é alisson e sou apaixonado por tecnologia, atualmente estou cursando Análise e desenvolvimento de sistemas e estudando back end com java e spring boot.
       </TextContent>
       <TextContent>
         Desenvolvo soluções em tecnologia, usando as melhores tecnologias do mercado, como o ecossistema ReactJS.
