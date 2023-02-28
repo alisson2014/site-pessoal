@@ -22,10 +22,11 @@ export const Component = styled.button`
   }
 
   @media (max-width: 520px) {
-    width: 70vw;
+    font-size: 1.8em;
+    width: 68vw;
 
     :hover {
-      letter-spacing: 5px;
+      letter-spacing: 4px;
       transform: scale(1.05);
     }
   }

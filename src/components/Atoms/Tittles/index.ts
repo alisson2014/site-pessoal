@@ -12,6 +12,10 @@ export const Tittle = styled.h1`
 export const SubTittle = styled.h2`
   font-size: 52px;
   font-weight: 600;
+
+  @media (max-width: 520px) {
+    font-size: 48px;
+  }
 `
 
 export const ThirdTittle = styled.h3`
