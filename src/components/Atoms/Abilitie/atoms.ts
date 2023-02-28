@@ -15,7 +15,7 @@ export const Card = styled.div`
   cursor: pointer;
 
   :hover {
-    transition: all .5s;
+    transition: all 0.5s;
     opacity: 1;
   }
 `

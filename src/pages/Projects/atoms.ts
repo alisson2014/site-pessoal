@@ -5,6 +5,10 @@ export const ProjectsContainer = styled.main`
   flex-direction: column;
   align-items: center;
   gap: 90px;
+
+  @media (max-width: 520px) {
+    gap: 40px;
+  }
 `
 
 export const Link = styled.a`
