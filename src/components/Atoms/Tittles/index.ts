@@ -5,7 +5,7 @@ export const Tittle = styled.h1`
   font-weight: 600;
 
   @media (max-width: 520px) {
-    font-size: 46px;
+    font-size: 45px;
   }
 `
 
