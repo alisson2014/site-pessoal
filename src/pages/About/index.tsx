@@ -1,13 +1,11 @@
-import { AboutMe } from "../../components";
+import { AboutMe, AboutImg } from "../../components";
 import { AboutContainer } from "./atoms";
 
 const About = () => {
   return (
     <AboutContainer>
       <AboutMe />
-      <section>
-        ...
-      </section>
+      <AboutImg />
     </AboutContainer>
   );
 };
