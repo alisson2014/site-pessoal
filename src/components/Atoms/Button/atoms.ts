@@ -20,4 +20,8 @@ export const Component = styled.button`
   a {
     text-decoration: none;
   }
+
+  @media (max-width: 520px) {
+    width: 62vw;
+  }
 `
