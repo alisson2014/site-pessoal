@@ -3,6 +3,10 @@ import styled from "styled-components"
 export const Tittle = styled.h1`
   font-size: 56px;
   font-weight: 600;
+
+  @media (max-width: 520px) {
+    font-size: 46px;
+  }
 `
 
 export const SubTittle = styled.h2`

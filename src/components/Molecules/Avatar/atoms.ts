@@ -14,4 +14,8 @@ export const AvatarImg = styled.img`
       transform: translateY(0);
     }
   }
+
+  @media (max-width: 520px) {
+    width: 235px;
+  }
 `
