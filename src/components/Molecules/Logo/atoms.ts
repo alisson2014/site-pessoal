@@ -4,6 +4,10 @@ export const Logo = styled.div`
   display: flex;
   align-items: center;
   gap: 5px;
+
+  @media (max-width: 520px) {
+    display: none;
+  }
 `
 
 export const Icon = styled.div`
