@@ -4,6 +4,11 @@ export const BoxContainer = styled.section`
   display: flex;
   align-items: center;
   gap: 70px;
+
+  @media (max-width: 520px) {
+    flex-direction: column;
+    gap: 35px;
+  }
 `
 
 export const Box = styled.div`
@@ -16,6 +21,11 @@ export const Box = styled.div`
   justify-content: center;
   overflow: hidden;
   cursor: pointer;
+
+  @media (max-width: 520px) {
+    width: 14rem;
+    height: 7.5rem;
+  }
 `
 
 export const BoxText = styled.div`
