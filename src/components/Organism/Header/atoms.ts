@@ -9,6 +9,5 @@ export const HeaderContainer = styled.header`
 
   @media (max-width: 520px) {
     border: none;
-    justify-content: flex-end;
   }
 `
