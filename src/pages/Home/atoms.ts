@@ -6,7 +6,8 @@ export const HomeContainer = styled.main`
   justify-content: space-around;
 
   @media (max-width: 520px) {
-    gap: 14px;
+    gap: 18px;
     flex-direction: column-reverse;
+    justify-content: center;
   }
 `
