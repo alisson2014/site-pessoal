@@ -4,7 +4,7 @@ export const Card = styled.div`
   display: flex;
   justify-content: center;
   transform-style: preserve-3d;
-  transition: all 0.5s linear;
+  transition: all 0.4s ease-in-out;
 
   &.flip {
     transform: rotateY(180deg);
@@ -19,7 +19,7 @@ export const Face = styled.div`
   background-color: #151515;
 
   opacity: 0.9;
-  transition: all 0.5s linear;
+  transition: all 0.4s ease-in-out;
   filter: blur(0.2px);
   cursor: pointer;
 
