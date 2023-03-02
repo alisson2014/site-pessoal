@@ -4,5 +4,6 @@ export const AbilitiesConatiner = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 55px;
+  justify-content: center;
+  gap: 40px;
 `
