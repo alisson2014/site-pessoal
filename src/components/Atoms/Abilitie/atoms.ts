@@ -4,7 +4,7 @@ export const Card = styled.div`
   display: flex;
   justify-content: center;
   transform-style: preserve-3d;
-  transition: all 0.5s;
+  transition: all 0.5s linear;
 
   &.flip {
     transform: rotateY(180deg);
@@ -12,12 +12,16 @@ export const Card = styled.div`
 `
 
 export const Face = styled.div`
-  width: 10rem;
-  height: 10rem;
+  width: 10.1rem;
+  height: 10.1rem;
   padding: 6px 0;
-  border-radius: 14px;
+  border-radius: 18px;
+  background-color: #151515;
+
+  opacity: 0.9;
+  transition: all 0.5s linear;
+  filter: blur(0.2px);
   cursor: pointer;
-  background-color: #252525;
 
   display: flex;
   align-items: center;
@@ -27,12 +31,16 @@ export const Face = styled.div`
   &.front {
     flex-direction: column;
     gap: 5px;
-    background-color: #252525;
   }
 
   &.back {
     transform: rotateY(180deg);
     padding: 20px;
+  }
+
+  &:hover {
+    opacity: 1;
+    filter: blur(0);
   }
 `
 
