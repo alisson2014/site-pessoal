@@ -5,15 +5,15 @@ export const Component = styled.button`
   width: 26vw;
   height: 9.5vh;
   text-align: center;
-  font-size: 2.2em;
+  font-size: 2.25em;
   font-weight: 500;
   border: 0;
   border-radius: 44px;
   cursor: pointer;
 
-  :hover {
+  &:hover {
     letter-spacing: 7px;
-    transform: scale(1.01);
+    transform: scale(1.05);
     transition: all 0.6s ease-in-out;
   }
 
@@ -25,9 +25,9 @@ export const Component = styled.button`
     font-size: 1.8em;
     width: 68vw;
 
-    :hover {
+    &:hover {
       letter-spacing: 4px;
-      transform: scale(1.05);
+      transform: scale(1.035);
     }
   }
 `

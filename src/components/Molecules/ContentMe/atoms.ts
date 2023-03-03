@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Content = styled.section`
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 11px;
 
   @media (max-width: 520px) {
     gap: 5px;
@@ -16,6 +16,7 @@ export const MeTittle = styled.span`
   font-weight: 300;
 
   @media (max-width: 520px) {
+    text-align: center;
     font-size: 27px;
   }
 `
