@@ -1,21 +1,21 @@
-import * as Atoms from "./atoms";
+import SocialItem from "../../Atoms/SocialItem";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import SocialItem from "../../Atoms/SocialItem";
+import { List } from "./atoms";
 
 const SocialList = () => {
   return (
-    <Atoms.SocialList>
+    <List>
       <SocialItem href="https://www.linkedin.com/in/alisson-vinicius-morais-de-almeida-027553252" target="_blank">
         <FaLinkedinIn />
       </SocialItem>
       <SocialItem href="https://github.com/alisson2014" target="_blank">
         <FaGithub />
       </SocialItem>
-      <SocialItem href="mailto:almeidaalisson2014@gmail.com?subject=Olá, vamos conversar sobre...">
+      <SocialItem href="mailto:almeidaalisson2014@gmail.com?subject=Olá, vamos conversar sobre (digite aqui)">
         <MdEmail />
       </SocialItem>
-    </Atoms.SocialList>
+    </List>
   );
 };
 
