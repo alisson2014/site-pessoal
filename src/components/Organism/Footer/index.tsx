@@ -1,5 +1,5 @@
 import SocialList from "../../Molecules/SocialList";
-import { FooterContainer } from "./atoms";
+import { FooterContainer } from "./style";
 
 const Footer = () => {
   return (

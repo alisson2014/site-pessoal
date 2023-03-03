@@ -1,7 +1,7 @@
 import SocialItem from "../../Atoms/SocialItem";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { List } from "./atoms";
+import { List } from "./style";
 
 const SocialList = () => {
   return (
