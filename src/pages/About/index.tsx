@@ -1,5 +1,5 @@
 import { AboutMe, AboutImg } from "../../components";
-import { AboutContainer } from "./atoms";
+import { AboutContainer } from "./style";
 
 const About = () => {
   return (
