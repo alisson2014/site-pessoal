@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const SocialList = styled.ul`
+export const List = styled.ul`
   list-style: none;
   width: 70%;
   display: flex;

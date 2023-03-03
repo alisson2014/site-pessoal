@@ -1,4 +1,4 @@
-import * as Atoms from "./atoms"
+import { LiItem } from "./style";
 
 interface ISocialItem {
   href: string
@@ -6,13 +6,15 @@ interface ISocialItem {
   children: any
 };
 
-const SocialItem = ({ href, target, children }: ISocialItem) => {
+const SocialItem = ({
+  href, target, children
+}: ISocialItem) => {
   return (
-    <Atoms.SocialItem>
+    <LiItem>
       <a href={href} target={target}>
         {children}
       </a>
-    </Atoms.SocialItem>
+    </LiItem>
   );
 };
 
