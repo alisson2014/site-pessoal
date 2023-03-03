@@ -1,5 +1,5 @@
 //TODO: Molecules
-import Avatar from "./Molecules/Avatar";
+import Avatar from "./Organism/Avatar";
 import ContentMe from "./Molecules/ContentMe";
 import AboutImg from "./Organism/AboutImg";
 import AboutMe from "./Organism/AboutMe";

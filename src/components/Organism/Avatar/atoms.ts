@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const AvatarImg = styled.img`
   border-radius: 50%;
   width: 300px;
-  animation: goback 2.5s infinite alternate;
+  animation: goback 2s infinite alternate;
 
   @keyframes goback {
     from {
@@ -16,6 +16,6 @@ export const AvatarImg = styled.img`
   }
 
   @media (max-width: 520px) {
-    width: 220px;
+    width: 230px;
   }
 `

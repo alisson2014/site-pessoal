@@ -15,7 +15,7 @@ const Button = ({
 
   return (
     <Component color={color}>
-      <a href={href} target={target ? target : "_blank"}>
+      <a href={href} target={target}>
         {text}
       </a>
     </Component>
