@@ -48,9 +48,3 @@ export const Img = styled.div`
   font-size: 5.2em;
   font-weight: 400;
 `
-
-export const TextContent = styled.p`
-  font-size: 0.9rem;
-  font-weight: 300;
-  text-align: justify;
-`

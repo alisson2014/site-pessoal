@@ -10,11 +10,11 @@ export const Component = styled.button`
   border: 0;
   border-radius: 44px;
   cursor: pointer;
+  transition: all 0.6s ease-in-out;
 
   &:hover {
     letter-spacing: 7px;
     transform: scale(1.05);
-    transition: all 0.6s ease-in-out;
   }
 
   a {

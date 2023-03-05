@@ -1,5 +1,5 @@
 import { ProjectsBox } from "../../components";
-import { SubTittle } from "../../components/Atoms/Tittles";
+import { SubTittle } from "../../components/Atoms/StyledTexts";
 import { ProjectsContainer, Link } from "./atoms";
 
 const Projects = () => {
