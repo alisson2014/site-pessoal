@@ -1,4 +1,4 @@
-import ModalButton from "../ModalButton";
+import ModalButton from "../../Molecules/ModalButton";
 import { TextContent, ThirdTittle } from "../StyledTexts";
 import { PContainer } from "./style";
 

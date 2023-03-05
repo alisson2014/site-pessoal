@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Modal from "../Modal";
+import Modal from "../../Atoms/Modal";
 import { SMButton } from "./style";
 
 const ModalButton = () => {
