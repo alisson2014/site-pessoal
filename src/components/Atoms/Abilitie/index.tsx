@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ThirdTittle } from "../Tittles";
+import { TextContent, ThirdTittle } from "../StyledTexts";
 import * as Atoms from "./atoms";
 
 interface IAbilitieCard {
@@ -33,9 +33,9 @@ const AbilitieCard = ({
           </Atoms.Face>
         ) : (
           <Atoms.Face className="back">
-            <Atoms.TextContent>
+            <TextContent>
               {textContent}
-            </Atoms.TextContent>
+            </TextContent>
           </Atoms.Face>
         )
       }

@@ -1,5 +1,5 @@
 import Button from "../../Atoms/Button";
-import { Tittle } from "../../Atoms/Tittles";
+import { Tittle } from "../../Atoms/StyledTexts";
 import * as Atoms from "./atoms";
 
 const ContentMe = () => {

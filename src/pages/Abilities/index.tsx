@@ -1,5 +1,5 @@
 import { CardBox } from "../../components";
-import { SubTittle } from "../../components/Atoms/Tittles";
+import { SubTittle } from "../../components/Atoms/StyledTexts";
 import { AbilitiesConatiner } from "./atoms";
 
 const Abilities = () => {

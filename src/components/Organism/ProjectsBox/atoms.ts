@@ -2,19 +2,20 @@ import styled from "styled-components"
 
 export const BoxContainer = styled.section`
   display: flex;
-  align-items: center;
-  gap: 70px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 75px;
 
   @media (max-width: 520px) {
     flex-direction: column;
-    gap: 35px;
+    gap: 30px;
   }
 `
 
-export const Box = styled.div`
-  background-color: whitesmoke;
-  width: 16.5rem;
-  height: 9rem;
+export const Box = styled.ul`
+  background-color: #151515;
+  width: 16rem;
+  height: 10rem;
   border-radius: 1.5rem;
   display: flex;
   align-items: center;
@@ -25,20 +26,5 @@ export const Box = styled.div`
   @media (max-width: 520px) {
     width: 14rem;
     height: 7.5rem;
-  }
-`
-
-export const BoxText = styled.div`
-  width: 100%;
-  background-color: #252525;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  font-weight: 400;
-  padding: 1.12rem 0;
-  transform: rotate(-45deg);
-
-  :hover {
-    letter-spacing: 0.2rem;
   }
 `

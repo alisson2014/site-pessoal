@@ -1,5 +1,5 @@
 import Button from "../../Atoms/Button";
-import { SubTittle } from "../../Atoms/Tittles";
+import { SubTittle } from "../../Atoms/StyledTexts";
 import { Content, TextContent } from "./style";
 
 const AboutMe = () => {
