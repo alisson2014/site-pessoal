@@ -24,4 +24,8 @@ export const SMButton = styled.button`
     text-decoration: none;
     color: #151515;
   }
+
+  @media (max-width: 520px) {
+    font-size: 1em;
+  }
 `
