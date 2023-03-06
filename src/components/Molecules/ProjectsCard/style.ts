@@ -9,8 +9,8 @@ export const PContainer = styled.div`
   justify-content: space-around;
 
   //Tamanhos
-  width: 19.3rem;
-  height: 14.2rem;
+  width: 18.8rem;
+  height: 14.3rem;
   padding: 18px 34px;
   background-color: #151515;
   border-radius: 16px;

@@ -15,10 +15,10 @@ import {
   SiStyledcomponents,
   SiJest,
 } from "react-icons/si";
-import AbilitieCard from "../../Atoms/CardAbilitie";
-import { ContainerAb } from "./atoms";
+import AbilitieCard from "../../Molecules/AbilitieCard";
+import { ContainerAb } from "./style";
 
-const CardBox = () => {
+const AbilitieBox = () => {
   return (
     <ContainerAb>
       <AbilitieCard
@@ -95,4 +95,4 @@ const CardBox = () => {
   );
 };
 
-export default CardBox;
+export default AbilitieBox;

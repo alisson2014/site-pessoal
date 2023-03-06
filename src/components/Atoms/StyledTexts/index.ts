@@ -24,7 +24,11 @@ export const ThirdTittle = styled.h3`
 `
 
 export const TextContent = styled.p`
-  font-size: 0.9rem;
+  font-size: 0.91rem;
   font-weight: 300;
   text-align: justify;
+
+  @media (max-width: 520px) {
+    font-size: 0.85rem;
+  }
 `

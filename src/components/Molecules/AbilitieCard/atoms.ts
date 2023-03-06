@@ -42,6 +42,12 @@ export const Face = styled.div`
     opacity: 1;
     filter: blur(0);
   }
+
+  @media (max-width: 520px) {
+    width: 9.7rem;
+    height: 9.7rem;
+    padding: 9px 0;
+  }
 `
 
 export const Img = styled.div`
