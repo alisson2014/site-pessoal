@@ -6,4 +6,8 @@ export const AbilitiesConatiner = styled.main`
   align-items: center;
   justify-content: center;
   gap: 40px;
+
+  @media (max-width: 520px) {
+    margin: 30px 0;
+  }
 `

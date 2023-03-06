@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TextContent, ThirdTittle } from "../StyledTexts";
+import { TextContent, ThirdTittle } from "../../Atoms/StyledTexts";
 import * as Atoms from "./atoms";
 
 interface IAbilitieCard {

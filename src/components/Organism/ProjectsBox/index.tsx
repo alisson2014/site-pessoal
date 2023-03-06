@@ -1,5 +1,5 @@
 import CardButton from "../../Atoms/CardButton";
-import CardProjects from "../../Molecules/CardProjects";
+import CardProjects from "../../Molecules/ProjectsCard";
 import * as Atoms from "./atoms";
 
 const ProjectsBox = () => {
