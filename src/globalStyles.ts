@@ -27,4 +27,10 @@ export const ResetCss = createGlobalStyle`
       transform: translateY(0px);
     }
   }
+
+  @media (max-width: 520px) {
+    html, body {
+      background: #2b86ff;
+    }
+  }
 `

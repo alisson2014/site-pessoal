@@ -5,10 +5,10 @@ export const LinkLi = styled.li`
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 400;
+    transition: all 0.8s ease-in-out;
   }
 
   a:hover {
-    transition: all 0.9s;
-    color: #182118;
+    color: #151515;
   }
 `

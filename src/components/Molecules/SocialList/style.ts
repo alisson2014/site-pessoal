@@ -6,7 +6,8 @@ export const List = styled.ul`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 32px;
+  gap: 28px;
+  margin-bottom: 14px;
 
   @media (max-width: 520px) {
     width: 100%;

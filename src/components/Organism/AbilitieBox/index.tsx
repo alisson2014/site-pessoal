@@ -15,7 +15,7 @@ import {
   SiStyledcomponents,
   SiJest,
 } from "react-icons/si";
-import AbilitieCard from "../../Atoms/Abilitie";
+import AbilitieCard from "../../Atoms/CardAbilitie";
 import { ContainerAb } from "./atoms";
 
 const CardBox = () => {
