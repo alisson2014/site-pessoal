@@ -16,17 +16,23 @@ export const PContainer = styled.div`
   border-radius: 16px;
 
   //Animação hover
-  filter: blur(0.08px);
-  -webkit-filter: blur(0.08px);
-  opacity: 0.9;
-  transition: all 0.75s ease-in-out;
+  filter: blur(0.05px);
+  -webkit-filter: blur(0.05px);
+  opacity: 0.95;
+  transition: all 0.5s ease-in-out;
 
   &:hover {
     filter: blur(0);
     opacity: 1;
   }
+
+  @media (max-width: 520px) {
+    width: 18.15rem;
+    height: 14.85rem;
+    padding: 15px 33px;
+  }
 `
 
 export const TextContainer = styled(TextContent)`
-  font-size: 1rem;
+  font-size: 1.05rem;
 `
