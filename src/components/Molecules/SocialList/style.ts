@@ -9,7 +9,7 @@ export const List = styled.ul`
   gap: 28px;
   margin-bottom: 20px;
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     width: 100%;
     justify-content: center;
     gap: 28px;

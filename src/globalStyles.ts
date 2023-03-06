@@ -28,7 +28,7 @@ export const ResetCss = createGlobalStyle`
     }
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     html, body {
       background: #2b86ff;
     }

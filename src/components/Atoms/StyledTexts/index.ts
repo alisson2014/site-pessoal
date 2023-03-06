@@ -28,7 +28,7 @@ export const TextContent = styled.p`
   font-weight: 300;
   text-align: justify;
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     font-size: 0.85rem;
   }
 `

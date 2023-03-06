@@ -8,7 +8,7 @@ export const ContainerAb = styled.section`
   align-items: center;
   gap: 15px;
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     width: 88vw;
     gap: 9px;
   }

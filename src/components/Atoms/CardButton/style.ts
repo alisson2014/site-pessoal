@@ -25,7 +25,7 @@ export const SMButton = styled.button`
     color: #151515;
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     font-size: 1em;
   }
 `

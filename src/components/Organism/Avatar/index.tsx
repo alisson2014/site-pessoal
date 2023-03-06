@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { AvatarImg } from "./atoms";
+import { AvatarImg } from "./style";
 
 const Avatar = () => {
   const [user, setUser] = useState({

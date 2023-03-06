@@ -26,7 +26,7 @@ export const PContainer = styled.div`
     opacity: 1;
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     width: 18.15rem;
     height: 14.85rem;
     padding: 15px 33px;

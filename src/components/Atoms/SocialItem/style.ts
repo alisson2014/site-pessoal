@@ -14,7 +14,7 @@ export const LiItem = styled.li`
       background-color: #151515;
     }
 
-    @media (max-width: 520px) {
+    @media (max-width: 710px) {
       font-size: 2.5em;
 
       &:hover {

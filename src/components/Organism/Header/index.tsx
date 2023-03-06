@@ -1,6 +1,6 @@
 import Logo from "../../Molecules/Logo";
 import Nav from "../../Molecules/Nav";
-import { HeaderContainer } from "./atoms";
+import { HeaderContainer } from "./style";
 
 const Header = () => {
   return (

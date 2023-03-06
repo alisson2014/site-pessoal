@@ -21,7 +21,7 @@ export const Component = styled.button`
     text-decoration: none;
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     font-size: 1.8em;
     width: 68vw;
 

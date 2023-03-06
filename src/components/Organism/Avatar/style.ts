@@ -15,7 +15,7 @@ export const AvatarImg = styled.img`
     }
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     width: 230px;
   }
 `

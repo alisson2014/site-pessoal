@@ -5,7 +5,7 @@ export const Content = styled.section`
   flex-direction: column;
   gap: 14px;
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     align-items: center;
   }
 `
@@ -15,7 +15,7 @@ export const TextContent = styled.p`
   font-weight: 300;
   text-align: justify;
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     font-size: 23px;
   }
 `

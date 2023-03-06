@@ -1,10 +1,10 @@
 import CardButton from "../../Atoms/CardButton";
 import CardProjects from "../../Molecules/ProjectsCard";
-import * as Atoms from "./atoms";
+import { BoxContainer } from "./style";
 
 const ProjectsBox = () => {
   return (
-    <Atoms.BoxContainer>
+    <BoxContainer>
       <CardProjects tittle="Calculator JS" text="
       Calculadora desenvolvida com HTML, CSS e JavaScript, implementei um theme switch, que permite transitar entre o tema ligth e dark.
       ">
@@ -27,7 +27,7 @@ const ProjectsBox = () => {
         <CardButton
           repoHref="https://github.com/alisson2014/brogui-bootcamp" />
       </CardProjects>
-    </Atoms.BoxContainer>
+    </BoxContainer>
   );
 };
 

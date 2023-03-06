@@ -1,5 +1,5 @@
-import * as Atoms from "./atoms"
 import { Link } from "react-router-dom";
+import { LinkLi } from "./style";
 
 interface ILinkTo {
   route: string
@@ -8,9 +8,9 @@ interface ILinkTo {
 
 const LinkTo = ({ route, section }: ILinkTo) => {
   return (
-    <Atoms.LinkLi>
+    <LinkLi>
       <Link to={route}>{section}</Link>
-    </Atoms.LinkLi>
+    </LinkLi>
   );
 };
 

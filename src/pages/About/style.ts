@@ -6,7 +6,7 @@ export const AboutContainer = styled.main`
   gap: 150px;
   padding: 0 210px;
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     flex-direction: column;
     gap: 30px;
     padding: 0 35px;

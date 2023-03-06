@@ -1,4 +1,4 @@
-import { AbImg } from "./atoms";
+import { AbImg } from "./style";
 
 const AboutImg = () => {
   return (

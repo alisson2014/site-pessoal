@@ -1,4 +1,4 @@
-import { Component } from "./atoms";
+import { Component } from "./style";
 interface IButtonProps {
   text: string
   color?: string

@@ -7,7 +7,7 @@ export const HeaderContainer = styled.header`
   height: 13vh;
   border-bottom: 2px solid #f5f5f5;
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     border: none;
   }
 `

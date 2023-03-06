@@ -5,7 +5,7 @@ export const AbImg = styled.section`
     width: 410px;
     border-radius: 13px;
 
-    @media (max-width: 520px) {
+    @media (max-width: 710px) {
       width: 300px;
     }
   }

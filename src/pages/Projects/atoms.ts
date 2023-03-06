@@ -6,7 +6,7 @@ export const ProjectsContainer = styled.main`
   align-items: center;
   gap: 78px;
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     gap: 40px;
     margin: 20px 0;
   }
@@ -18,7 +18,7 @@ export const Link = styled.a`
   font-weight: 500;
   transition: all 0.8s;
 
-  :hover {
+  &:hover {
     color: #141414;
     opacity: 0.9;
   }

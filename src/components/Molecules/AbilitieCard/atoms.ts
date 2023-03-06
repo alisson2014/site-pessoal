@@ -43,7 +43,7 @@ export const Face = styled.div`
     filter: blur(0);
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 710px) {
     width: 9.7rem;
     height: 9.7rem;
     padding: 9px 0;

@@ -1,6 +1,6 @@
 import Footer from "../Organism/Footer";
 import Header from "../Organism/Header";
-import { Container } from "./atoms";
+import { Container } from "./style";
 
 const Layout = ({ children }: any) => {
   return (
