@@ -4,7 +4,7 @@ export const BoxContainer = styled.section`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 75px;
+  gap: 50px;
 
   @media (max-width: 710px) {
     flex-direction: column;

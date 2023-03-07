@@ -4,10 +4,10 @@ export const ProjectsContainer = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 78px;
+  gap: 28px;
 
   @media (max-width: 710px) {
-    gap: 40px;
+    gap: 20px;
     margin: 20px 0;
   }
 `

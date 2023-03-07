@@ -27,8 +27,8 @@ export const PContainer = styled.div`
   }
 
   @media (max-width: 710px) {
-    width: 18.15rem;
-    height: 14.85rem;
+    width: 18.6rem;
+    height: 22.8rem;
     padding: 15px 33px;
   }
 `
@@ -44,7 +44,7 @@ export const ContentImg = styled.img`
 
 export const ButtonContainer = styled.div`
   display: flex;
-  gap: 17.5px;
+  gap: 16px;
 `
 
 export const SMButton = styled.button`
