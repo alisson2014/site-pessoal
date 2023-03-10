@@ -15,17 +15,6 @@ export const PContainer = styled.div`
   background-color: #151515;
   border-radius: 16px;
 
-  //Animação hover
-  filter: blur(0.05px);
-  -webkit-filter: blur(0.05px);
-  opacity: 0.95;
-  transition: all 0.5s ease-in-out;
-
-  &:hover {
-    filter: blur(0);
-    opacity: 1;
-  }
-
   @media (max-width: 710px) {
     width: 18.6rem;
     height: 22.8rem;

@@ -17,10 +17,6 @@ export const Face = styled.div`
   padding: 6px 0;
   border-radius: 18px;
   background-color: #151515;
-
-  opacity: 0.9;
-  transition: all 0.4s ease-in-out;
-  filter: blur(0.2px);
   cursor: pointer;
 
   display: flex;
@@ -36,11 +32,6 @@ export const Face = styled.div`
   &.back {
     transform: rotateY(180deg);
     padding: 20px;
-  }
-
-  &:hover {
-    opacity: 1;
-    filter: blur(0);
   }
 
   @media (max-width: 710px) {

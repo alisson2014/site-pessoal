@@ -17,5 +17,6 @@ export const AvatarImg = styled.img`
 
   @media (max-width: 710px) {
     width: 230px;
+    animation: none;
   }
 `

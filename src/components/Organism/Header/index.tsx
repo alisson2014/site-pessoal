@@ -1,12 +1,12 @@
 import Logo from "../../Molecules/Logo";
-import Nav from "../../Molecules/Nav";
+import NavBar from "../../Molecules/NavBar";
 import { HeaderContainer } from "./style";
 
 const Header = () => {
   return (
     <HeaderContainer>
       <Logo />
-      <Nav />
+      <NavBar />
     </HeaderContainer>
   );
 };
