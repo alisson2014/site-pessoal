@@ -6,6 +6,7 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  z-index: 999;
 
   @media screen and (max-width: 960px) {
     justify-content: flex-end;
@@ -23,14 +24,14 @@ export const MobileIcon = styled.div`
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 10000;
+    z-index: 1000;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
   }
 `
 
-export const NavMenu = styled.ul`
+export const NavMenu = styled.ul<{ isOpen: boolean }>`
   width: 34vw;
   display: flex;
   justify-content: space-around;
@@ -40,12 +41,12 @@ export const NavMenu = styled.ul`
   @media screen and (max-width: 960px) {
     position: absolute;
     top: 0;
-    z-index: 1000;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
+    display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
   }
 `
