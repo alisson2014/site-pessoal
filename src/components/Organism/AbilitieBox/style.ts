@@ -6,10 +6,10 @@ export const ContainerAb = styled.section`
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  gap: 15px;
+  gap: 25px 40px;
 
-  @media (max-width: 710px) {
+  @media screen and (max-width: 1100px) {
     width: 88vw;
-    gap: 9px;
+    gap: calc(7vw - 14px) calc(3vh - 18px);
   }
 `

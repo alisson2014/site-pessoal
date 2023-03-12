@@ -5,7 +5,7 @@ export const HomeContainer = styled.main`
   align-items: center;
   justify-content: space-around;
 
-  @media (max-width: 710px) {
+  @media screen and (max-width: 880px) {
     padding: 15px 0;
     gap: 18px;
     flex-direction: column-reverse;

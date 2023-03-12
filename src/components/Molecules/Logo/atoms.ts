@@ -5,7 +5,7 @@ export const Logo = styled.div`
   align-items: center;
   gap: 5px;
 
-  @media (max-width: 710px) {
+  @media screen and (max-width: 720px) {
     display: none;
   }
 `

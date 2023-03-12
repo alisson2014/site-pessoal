@@ -2,11 +2,11 @@ import styled from "styled-components"
 
 export const AbImg = styled.section`
   img {
-    width: 410px;
+    width: calc(28vw - 13px);
     border-radius: 13px;
 
-    @media (max-width: 710px) {
-      width: 300px;
+    @media screen and (max-width: 880px) {
+      width: 65vw;
     }
   }
 `

@@ -2,10 +2,9 @@ import styled from "styled-components"
 
 export const BoxContainer = styled.section`
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: center;
   gap: 50px;
-  flex-wrap: wrap;
 
   @media (max-width: 710px) {
     flex-direction: column;
