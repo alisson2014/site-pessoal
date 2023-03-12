@@ -3,10 +3,10 @@ import styled from "styled-components"
 export const AboutContainer = styled.main`
   display: flex;
   align-items: center;
-  gap: 150px;
+  gap: 7rem;
   padding: 0 210px;
 
-  @media (max-width: 710px) {
+  @media (max-width: 1200px) {
     flex-direction: column;
     gap: 30px;
     padding: 0 35px;

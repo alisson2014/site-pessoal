@@ -12,8 +12,7 @@ const NavBar = () => {
       <MobileIcon onClick={handleClick}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </MobileIcon>
-      {window.screen.width <= 960 && isOpen ? (
-        <NavMenu>
+        <NavMenu isOpen={isOpen}>
           <LinkTo route="/home" section="Home"
             onClick={handleClick} />
           <LinkTo route="/about" section="Sobre"
@@ -23,15 +22,6 @@ const NavBar = () => {
           <LinkTo route="/abilities" section="Habilidades"
             onClick={handleClick} />
         </NavMenu>
-      ) : null}
-      {window.screen.width > 960 ? (
-        <NavMenu>
-          <LinkTo route="/home" section="Home" />
-          <LinkTo route="/about" section="Sobre" />
-          <LinkTo route="/projects" section="Projetos" />
-          <LinkTo route="/abilities" section="Habilidades" />
-        </NavMenu>
-      ) : null}
     </Nav>
   );
 };
