@@ -19,7 +19,9 @@ const Avatar = () => {
 
   return (
     <section>
-      <AvatarImg src={user.avatar} alt={user.name} />
+      <AvatarImg
+        src={user.avatar} alt={user.name} title={user.name}
+      />
     </section>
   );
 };
