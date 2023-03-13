@@ -5,17 +5,18 @@ export const Content = styled.section`
   flex-direction: column;
   gap: 14px;
 
-  @media (max-width: 710px) {
+  @media (max-width: 960px) {
+    gap: 12px;
     align-items: center;
   }
 `
 
 export const TextContent = styled.p`
-  font-size: 26px;
+  font-size: 27px;
   font-weight: 300;
   text-align: justify;
 
-  @media (max-width: 710px) {
+  @media (max-width: 960px) {
     font-size: 23px;
   }
 `
