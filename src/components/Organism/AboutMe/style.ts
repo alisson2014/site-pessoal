@@ -12,11 +12,11 @@ export const Content = styled.section`
 `
 
 export const TextContent = styled.p`
-  font-size: 27px;
+  font-size: 26px;
   font-weight: 300;
   text-align: justify;
 
-  @media (max-width: 960px) {
+  @media screen and (max-width: 960px) {
     font-size: 23px;
   }
 `

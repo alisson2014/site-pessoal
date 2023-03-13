@@ -1,6 +1,6 @@
 import { ProjectsBox } from "../../components";
 import { SubTittle } from "../../components/Atoms/StyledTexts";
-import { ProjectsContainer, Link } from "./atoms";
+import { ProjectsContainer, Link } from "./style";
 
 const Projects = () => {
   return (

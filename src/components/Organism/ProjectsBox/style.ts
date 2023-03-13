@@ -6,8 +6,8 @@ export const BoxContainer = styled.section`
   justify-content: center;
   gap: 50px;
 
-  @media (max-width: 710px) {
+  @media screen and (max-width: 960px) {
     flex-direction: column;
-    gap: 30px;
+    gap: 35px 20px;
   }
 `

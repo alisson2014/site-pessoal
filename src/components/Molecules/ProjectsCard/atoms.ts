@@ -15,10 +15,16 @@ export const PContainer = styled.div`
   background-color: #151515;
   border-radius: 16px;
 
-  @media (max-width: 710px) {
+  @media (min-width: 651px) and (max-width: 960px) {
     width: 18.6rem;
     height: 22.8rem;
     padding: 15px 33px;
+  }
+
+  @media (min-width: 250px) and (max-width: 650px) {
+    width: 18.2rem;
+    height: 22.5rem;
+    padding: 12px 32px;
   }
 `
 
@@ -56,7 +62,7 @@ export const SMButton = styled.button`
     color: #151515;
   }
 
-  @media (max-width: 710px) {
+  @media screen and (max-width: 960px) {
     font-size: 1em;
   }
 `
