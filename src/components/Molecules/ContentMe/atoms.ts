@@ -4,7 +4,7 @@ export const Content = styled.section`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 12px;
+  gap: 13px;
 
   @media screen and (max-width: 960px) {
     align-items: center;

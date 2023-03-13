@@ -7,11 +7,10 @@ export const List = styled.ul`
   align-items: center;
   justify-content: flex-start;
   gap: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 23px;
 
-  @media (max-width: 710px) {
+  @media screen and (max-width: 960px) {
     width: 100%;
     justify-content: center;
-    gap: 28px;
   }
 `
