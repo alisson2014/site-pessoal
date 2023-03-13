@@ -3,20 +3,21 @@ import styled from "styled-components"
 export const Content = styled.section`
   display: flex;
   flex-direction: column;
-  gap: 11px;
+  align-items: flex-start;
+  gap: 12px;
 
-  @media (max-width: 710px) {
-    gap: 5px;
+  @media screen and (max-width: 960px) {
     align-items: center;
+    gap: 6px;
   }
 `
 
 export const MeTittle = styled.span`
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 300;
 
-  @media (max-width: 710px) {
+  @media screen and (max-width: 960px) {
     text-align: center;
-    font-size: 27px;
+    font-size: 1.7rem;
   }
 `

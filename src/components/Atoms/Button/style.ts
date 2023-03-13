@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Component = styled.button`
   background-color: ${({ color }) => (color ? color : "#252525")};
-  width: 26vw;
+  width: 29vw;
   height: 9.5vh;
   text-align: center;
   font-size: 2.25em;
@@ -21,13 +21,13 @@ export const Component = styled.button`
     text-decoration: none;
   }
 
-  @media (max-width: 710px) {
+  @media screen and (max-width: 960px) {
     font-size: 1.8em;
-    width: 68vw;
+    width: 65vw;
+    height: 10vh;
 
     &:hover {
-      letter-spacing: 4px;
-      transform: scale(1.035);
+      transform: scale(1.038);
     }
   }
 `
