@@ -1,6 +1,6 @@
 import { AbilitieBox } from "../../components";
 import { SubTittle } from "../../components/Atoms/StyledTexts";
-import { AbilitiesConatiner } from "./atoms";
+import { AbilitiesConatiner } from "./style";
 
 const Abilities = () => {
   return (

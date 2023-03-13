@@ -8,8 +8,13 @@ export const ContainerAb = styled.section`
   align-items: center;
   gap: 25px 40px;
 
-  @media screen and (max-width: 1100px) {
-    width: 88vw;
-    gap: calc(7vw - 14px) calc(3vh - 18px);
+  @media (min-width: 240px) and (max-width: 640px) {
+    width: 82vw;
+    gap: 15px 25px;
+  }
+
+  @media (min-width: 641px) and (max-width: 1140px) {
+    width: 78vw;
+    gap: 20px 30px;
   }
 `

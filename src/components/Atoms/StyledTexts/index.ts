@@ -24,11 +24,11 @@ export const ThirdTittle = styled.h3`
 `
 
 export const TextContent = styled.p`
-  font-size: 0.91rem;
+  font-size: 0.9rem;
   font-weight: 300;
   text-align: justify;
 
   @media screen and (max-width: 960px) {
-    font-size: 0.85rem;
+    font-size: 0.84rem;
   }
 `

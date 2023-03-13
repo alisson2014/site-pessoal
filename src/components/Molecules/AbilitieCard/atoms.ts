@@ -34,7 +34,7 @@ export const Face = styled.div`
     padding: 20px;
   }
 
-  @media (max-width: 710px) {
+  @media screen and (max-width: 960px) {
     width: 9.7rem;
     height: 9.7rem;
     padding: 9px 0;
