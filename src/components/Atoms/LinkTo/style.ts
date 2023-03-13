@@ -5,14 +5,14 @@ export const LinkLi = styled.li`
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 400;
-    transition: all 0.8s ease-in-out;
+    transition: all 0.6s ease-in-out;
 
-    @media (max-width: 710px) {
-      font-size: 1.14rem;
+    @media (max-width: 960px) {
+      font-size: 1.15rem;
     }
-  }
 
-  a:hover {
-    color: #151515;
+    &:hover {
+      color: #151515;
+    }
   }
 `

@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Nav = styled.nav`
-  height: 80px;
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@ export const MobileIcon = styled.div`
 `
 
 export const NavMenu = styled.ul<{ isOpen: boolean }>`
-  width: 34vw;
+  width: 38vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -45,8 +45,8 @@ export const NavMenu = styled.ul<{ isOpen: boolean }>`
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
   }
 `

@@ -5,7 +5,7 @@ export const Logo = styled.div`
   align-items: center;
   gap: 5px;
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 960px) {
     display: none;
   }
 `
@@ -19,11 +19,11 @@ export const Tittle = styled.div`
   font-size: 1.25rem;
   text-transform: uppercase;
 
-  &.t-1 {
+  .t-1 {
     font-weight: 600;
   }
 
-  &.t-2 {
+  .t-2 {
     font-weight: 300;
   }
 `
