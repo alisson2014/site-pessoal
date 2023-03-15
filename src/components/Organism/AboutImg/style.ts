@@ -13,4 +13,21 @@ export const AbImg = styled.section`
       width: 384px;
     }
   }
+
+  figure {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    gap: 7px;
+  }
+
+  figure figcaption a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+  }
+
+  figure figcaption a:hover {
+    color: #151515;
+  }
 `
