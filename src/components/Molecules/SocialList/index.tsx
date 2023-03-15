@@ -6,7 +6,7 @@ import { List } from "./style";
 const SocialList = () => {
   return (
     <List>
-      <SocialItem href="https://www.linkedin.com/in/alisson-vinicius-morais-de-almeida-027553252" target="_blank">
+      <SocialItem href="https://www.linkedin.com/in/alisson-vm-2014-alm/" target="_blank">
         <FaLinkedinIn />
       </SocialItem>
       <SocialItem href="https://github.com/alisson2014" target="_blank">

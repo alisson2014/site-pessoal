@@ -20,7 +20,7 @@ const ProjectsBox = () => {
 
       <CardProjects title="Brogui PHP" text="
       Blog desenvolvido no bootcamp catalisa do Integrado, com interação com banco de dados SQL."
-        image={imageArray[0]} repoHref="" />
+        image={imageArray[0]} repoHref="https://github.com/alisson2014/brogui-bootcamp" />
     </BoxContainer>
   );
 };
