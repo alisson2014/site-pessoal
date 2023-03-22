@@ -7,7 +7,7 @@ export const AbilitiesConatiner = styled.main`
   justify-content: center;
   gap: 40px;
 
-  @media screen and (max-width: 960px) {
-    margin: 30px 0;
+  @media screen and (max-width: 1240px) {
+    margin: 50px 0;
   }
 `

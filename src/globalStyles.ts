@@ -10,8 +10,7 @@ export const ResetCss = createGlobalStyle`
   html, body {
       animation: fadeIn 0.8s both;
       font-family: "Inter", sans-serif;
-      background: linear-gradient(
-        to bottom left, #20b0ca, #2f8ad4);
+      background: #2b86ff;
     }
 
   body * {
@@ -26,12 +25,6 @@ export const ResetCss = createGlobalStyle`
     100% {
       opacity: 1;
       transform: translateY(0px);
-    }
-  }
-
-  @media screen and (max-width: 1160px) {
-    html, body {
-      background: #2b86ff;
     }
   }
 `
