@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import { ResetCss } from "./globalStyles";
 import AppRouter from "./routes";
-import Layout from "./components/Layout";
+import { Layout } from "./components";
 
 const App = () => {
   return (

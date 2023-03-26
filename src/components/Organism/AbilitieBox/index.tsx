@@ -1,6 +1,9 @@
+import AbilitieCard from "../../Molecules/AbilitieCard";
+import { ContainerAb } from "./style";
+import cards from "./cards.json";
 
+//React icons
 import { FaBootstrap } from "react-icons/fa";
-
 import {
   DiHtml5,
   DiCss3,
@@ -15,81 +18,48 @@ import {
   SiStyledcomponents,
   SiJest,
 } from "react-icons/si";
-import AbilitieCard from "../../Molecules/AbilitieCard";
-import { ContainerAb } from "./style";
 
 const AbilitieBox = () => {
   return (
     <ContainerAb>
       <AbilitieCard
-        tittle="HTML5"
+        {...cards[0]}
         children={<DiHtml5 />}
-        textContent="
-        Linguaguem de marcação de hyperlinks, usado para criar a estrutura do site, desde metadados até textos e botões. 
-      "
       />
       <AbilitieCard
-        tittle="CSS3"
+        {...cards[1]}
         children={<DiCss3 />}
-        textContent="
-        Folha de estilo em cascata, usado na estilização do site, desde mudar uma fonte até animações avançadas.
-      "
       />
       <AbilitieCard
-        tittle="JavaScript"
-        children={<DiJavascript />}
-        textContent="
-        Linguagem de progamação, usado para deixar o site inteligente com informações dinâmicas.
-      "
-      />
+        {...cards[2]}
+        children={<DiJavascript />} />
       <AbilitieCard
-        tittle="Git"
+        {...cards[3]}
         children={<DiGit />}
-        textContent="
-        Sistema de controle de versão distribuído, usado em times e facillita o trabalho offline ou remoto. 
-      "
       />
       <AbilitieCard
-        tittle="Github"
+        {...cards[4]}
         children={<DiGithubBadge />}
-        textContent="
-         É um serviço baseado em nuvem que hospeda os repositórios Git.
-      "
       />
       <AbilitieCard
-        tittle="React"
+        {...cards[5]}
         children={<DiReact />}
-        textContent="
-        É uma biblioteca Javascript, usada na construção de sites que buscam escalabilidade e performance.
-      "
       />
       <AbilitieCard
-        tittle="Typescript"
+        {...cards[6]}
         children={<SiTypescript />}
-        textContent="
-        É um superset de JavaScript, permite atribuir tipos a aplicação tornando-a mais rápida e segura
-      "
       />
       <AbilitieCard
-        tittle="Bootstrap"
+        {...cards[7]}
         children={<FaBootstrap />}
-        textContent="
-        É um framework CSS, permite criar aplicações responsivas por padrão.
-      "
       />
       <AbilitieCard
-        tittle="S. components"
+        {...cards[8]}
         children={<SiStyledcomponents />}
-        textContent="
-        É uma biblioteca CSS in JS, permite estilizar os componentes no próprio JavaScript.
-      "
       />
       <AbilitieCard
-        tittle="Jest"
+        {...cards[9]}
         children={<SiJest />}
-        textContent="
-        É uma ferramenta usada na realização de testes unitários, permitindo avaliar erros antes de subir a aplicação.  
-      "
       />
     </ContainerAb>
   );

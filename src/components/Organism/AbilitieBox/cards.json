@@ -1,0 +1,42 @@
+[
+  {
+    "title": "HTML5",
+    "textContent": "Linguaguem de marcação de hyperlinks, usado para criar a estrutura do site, desde metadados até textos e botões."
+  },
+  {
+    "title": "CSS3",
+    "textContent": "Folha de estilo em cascata, usado na estilização do site, desde mudar uma fonte até animações avançadas."
+  },
+  {
+    "title": "JavaScript",
+    "textContent": "Linguagem de progamação, usado para deixar o site inteligente com informações dinâmicas."
+  },
+  {
+    "title": "Git",
+    "textContent": "Sistema de controle de versão distribuído, usado em times e facillita o trabalho offline ou remoto."
+  },
+  {
+    "title": "Github",
+    "textContent": "É um serviço baseado em nuvem que hospeda os repositórios Git."
+  },
+  {
+    "title": "React",
+    "textContent": "É uma biblioteca Javascript, usada na construção de sites que buscam escalabilidade e performance."
+  },
+  {
+    "title": "Typescript",
+    "textContent": "É um superset de JavaScript, permite atribuir tipos a aplicação tornando-a mais rápida e segura."
+  },
+  {
+    "title": "Bootstrap",
+    "textContent": "É um framework CSS, permite criar aplicações responsivas por padrão."
+  },
+  {
+    "title": "S. components",
+    "textContent": "É uma biblioteca CSS in JS, permite estilizar os componentes no próprio JavaScript."
+  },
+  {
+    "title": "Jest",
+    "textContent": "É uma ferramenta usada na realização de testes unitários, permitindo avaliar erros antes de subir a aplicação."
+  }
+]

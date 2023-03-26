@@ -9,7 +9,7 @@ const AboutImg = () => {
             Imagem de vectorjuice no Freepik
           </a>
         </figcaption>
-        <img src={require("./tech.avif")} alt="image" />
+        <img src="/assets/tech.avif" alt="image" />
       </figure>
 
     </AbImg>

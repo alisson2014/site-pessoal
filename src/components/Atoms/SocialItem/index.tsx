@@ -1,13 +1,14 @@
+import React from "react";
 import { LiItem } from "./style";
 
 interface ISocialItem {
   href: string
   target?: string
-  children: any
+  children: React.ReactElement
 };
 
 const SocialItem = ({
-  href, target, children
+  href, target = "blank", children
 }: ISocialItem) => {
   return (
     <LiItem>

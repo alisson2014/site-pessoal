@@ -1,17 +1,17 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { TextContent, ThirdTittle } from "../../Atoms/StyledTexts";
 import * as Atoms from "./atoms";
 
 interface IAbilitieCard {
-  tittle: string
+  title: string
   textContent: string
-  children: any
+  children: React.ReactElement
 }
 
 type FlipState = "" | "flip";
 
 const AbilitieCard = ({
-  tittle, children, textContent
+  title, children, textContent
 }: IAbilitieCard) => {
   const [flipState, setFlipState] = useState<FlipState>("")
 
@@ -28,7 +28,7 @@ const AbilitieCard = ({
       {
         flipState === "" ? (
           <Atoms.Face className="front">
-            <ThirdTittle>{tittle}</ThirdTittle>
+            <ThirdTittle>{title}</ThirdTittle>
             <Atoms.Img>{children}</Atoms.Img>
           </Atoms.Face>
         ) : (
