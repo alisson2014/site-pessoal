@@ -17,6 +17,19 @@ export const ResetCss = createGlobalStyle`
     color: #fffafa;
   }
 
+  body::-webkit-scrollbar {
+  width: 3px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: linear-gradient(#2b86ff, blue);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #2b86ff;
+    border-radius: 20px;
+  }
+
   @keyframes fadeIn {
     0% {
       opacity: 0;

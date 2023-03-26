@@ -44,8 +44,8 @@ export const NavMenu = styled.ul<{ isOpen: boolean }>`
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.04);
+    backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(10px);
     display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
   }
