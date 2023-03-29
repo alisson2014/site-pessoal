@@ -1,15 +1,12 @@
 import { BrowserRouter } from "react-router-dom";
 import { ResetCss } from "./globalStyles";
 import AppRouter from "./routes";
-import { Layout } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
       <ResetCss />
-      <Layout>
-        <AppRouter />
-      </Layout>
+      <AppRouter />
     </BrowserRouter>
   );
 };

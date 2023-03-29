@@ -18,7 +18,7 @@ export const ResetCss = createGlobalStyle`
   }
 
   body::-webkit-scrollbar {
-  width: 3px;
+    width: 3px;
   }
 
   body::-webkit-scrollbar-track {

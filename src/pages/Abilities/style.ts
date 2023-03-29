@@ -5,7 +5,7 @@ export const AbilitiesConatiner = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
 
   @media screen and (max-width: 1240px) {
     margin: 50px 0;
