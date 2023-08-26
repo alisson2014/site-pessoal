@@ -1,4 +1,3 @@
-//TODO: Molecules
 import Avatar from "./Organism/Avatar";
 import ContentMe from "./Molecules/ContentMe";
 import AboutImg from "./Organism/AboutImg";

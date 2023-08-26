@@ -1,4 +1,4 @@
-import { Avatar, ContentMe } from "../../components";
+import { Avatar, ContentMe } from "components";
 import { HomeContainer } from "./atoms";
 
 const Home = () => {

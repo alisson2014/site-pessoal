@@ -1,5 +1,5 @@
-import { AbilitieBox } from "../../components";
-import { SubTittle, ThirdTittle } from "../../components/Atoms/StyledTexts";
+import { AbilitieBox } from "components";
+import { SubTittle, ThirdTittle } from "components/Atoms/StyledTexts";
 import { AbilitiesConatiner } from "./style";
 
 const Abilities = () => {

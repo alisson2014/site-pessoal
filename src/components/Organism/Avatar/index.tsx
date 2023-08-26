@@ -3,7 +3,8 @@ import { AvatarImg } from "./style";
 
 const Avatar = () => {
   const [user, setUser] = useState({
-    avatar: "", name: ""
+    avatar: "",
+    name: ""
   });
 
   useEffect(() => {
@@ -13,14 +14,16 @@ const Avatar = () => {
         setUser({
           avatar: data.avatar_url,
           name: data.name
-        })
+        });
       })
   }, []);
 
   return (
     <section>
       <AvatarImg
-        src={user.avatar} alt={user.name} title={user.name}
+        src={user.avatar}
+        alt={user.name}
+        title={user.name}
       />
     </section>
   );

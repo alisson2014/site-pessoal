@@ -10,7 +10,10 @@ const ContentMe = () => {
         <Tittle>Alisson Vinícius</Tittle>
         Desenvolvedor web
       </Atoms.MeTittle>
-      <Button href="https://www.linkedin.com/in/alisson-vm-2014-alm/" text="Linkedin" target="blank" />
+      <Button
+        href="https://www.linkedin.com/in/alisson-vm-2014-alm/" text="Linkedin"
+        target="blank"
+      />
     </Atoms.Content>
   );
 };

@@ -5,7 +5,7 @@ import * as Atoms from "./atoms";
 interface IAbilitieCard {
   title: string
   textContent: string
-  children: React.ReactElement
+  children: React.ReactNode
 }
 
 type FlipState = "" | "flip";
@@ -25,20 +25,18 @@ const AbilitieCard = ({
 
   return (
     <Atoms.Card className={flipState} onClick={handleOnClick}>
-      {
-        flipState === "" ? (
-          <Atoms.Face className="front">
-            <ThirdTittle>{title}</ThirdTittle>
-            <Atoms.Img>{children}</Atoms.Img>
-          </Atoms.Face>
-        ) : (
-          <Atoms.Face className="back">
-            <TextContent>
-              {textContent}
-            </TextContent>
-          </Atoms.Face>
-        )
-      }
+      {flipState === "" ? (
+        <Atoms.Face className="front">
+          <ThirdTittle>{title}</ThirdTittle>
+          <Atoms.Img>{children}</Atoms.Img>
+        </Atoms.Face>
+      ) : (
+        <Atoms.Face className="back">
+          <TextContent>
+            {textContent}
+          </TextContent>
+        </Atoms.Face>
+      )}
     </Atoms.Card>
   )
 }
