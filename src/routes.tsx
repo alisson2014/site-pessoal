@@ -1,5 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-import { Abilities, About, Error404, Home, Projects, Layout } from "./pages";
+import {
+  Abilities,
+  About,
+  Error404,
+  Home,
+  Projects,
+  Layout
+} from "pages";
 
 const AppRouter = () => {
   return (
