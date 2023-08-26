@@ -5,7 +5,7 @@ const Logo = () => {
     <Atoms.Logo>
       <Atoms.Icon>&lt;/&gt;</Atoms.Icon>
       <Atoms.Tittle>
-        <div className="t-1">Front-end</div>
+        <div className="t-1">Full-Stack</div>
         <div className="t-2">Developer</div>
       </Atoms.Tittle>
     </Atoms.Logo>

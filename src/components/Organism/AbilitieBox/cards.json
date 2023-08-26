@@ -1,5 +1,13 @@
 [
   {
+    "title": "PHP",
+    "textContent": "É uma linguagem de programação de código aberto amplamente utilizada para o desenvolvimento de aplicações web dinâmicas."
+  },
+  {
+    "title": "MySQL",
+    "textContent": "O MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto (RDBMS)."
+  },
+  {
     "title": "HTML5",
     "textContent": "Linguaguem de marcação de hyperlinks, usado para criar a estrutura do site, desde metadados até textos e botões."
   },
@@ -30,13 +38,5 @@
   {
     "title": "Bootstrap",
     "textContent": "É um framework CSS, permite criar aplicações responsivas por padrão."
-  },
-  {
-    "title": "S. components",
-    "textContent": "É uma biblioteca CSS in JS, permite estilizar os componentes no próprio JavaScript."
-  },
-  {
-    "title": "Jest",
-    "textContent": "É uma ferramenta usada na realização de testes unitários, permitindo avaliar erros antes de subir a aplicação."
   }
 ]

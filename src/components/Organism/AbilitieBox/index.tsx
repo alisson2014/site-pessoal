@@ -2,7 +2,6 @@ import AbilitieCard from "../../Molecules/AbilitieCard";
 import { ContainerAb } from "./style";
 import cards from "./cards.json";
 
-//React icons
 import { FaBootstrap } from "react-icons/fa";
 import {
   DiHtml5,
@@ -10,56 +9,54 @@ import {
   DiJavascript,
   DiGit,
   DiGithubBadge,
-  DiReact
+  DiReact,
+  DiPhp,
+  DiMysql
 } from "react-icons/di";
 
-import {
-  SiTypescript,
-  SiStyledcomponents,
-  SiJest,
-} from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 const AbilitieBox = () => {
   return (
     <ContainerAb>
       <AbilitieCard
         {...cards[0]}
-        children={<DiHtml5 />}
+        children={<DiPhp />}
       />
       <AbilitieCard
         {...cards[1]}
-        children={<DiCss3 />}
+        children={<DiMysql />}
       />
       <AbilitieCard
         {...cards[2]}
-        children={<DiJavascript />} />
+        children={<DiHtml5 />}
+      />
       <AbilitieCard
         {...cards[3]}
-        children={<DiGit />}
+        children={<DiCss3 />}
       />
       <AbilitieCard
         {...cards[4]}
-        children={<DiGithubBadge />}
-      />
+        children={<DiJavascript />} />
       <AbilitieCard
         {...cards[5]}
-        children={<DiReact />}
+        children={<DiGit />}
       />
       <AbilitieCard
         {...cards[6]}
-        children={<SiTypescript />}
+        children={<DiGithubBadge />}
       />
       <AbilitieCard
         {...cards[7]}
-        children={<FaBootstrap />}
+        children={<DiReact />}
       />
       <AbilitieCard
         {...cards[8]}
-        children={<SiStyledcomponents />}
+        children={<SiTypescript />}
       />
       <AbilitieCard
         {...cards[9]}
-        children={<SiJest />}
+        children={<FaBootstrap />}
       />
     </ContainerAb>
   );
