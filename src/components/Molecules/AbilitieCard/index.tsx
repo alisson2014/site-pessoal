@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { TextContent, ThirdTittle } from "../../Atoms/StyledTexts";
 import * as Atoms from "./atoms";
+import { IconType } from "react-icons/lib";
 
 interface IAbilitieCard {
   title: string
   textContent: string
-  children: React.ReactElement
+  children: React.ReactNode
 }
 
 type FlipState = "" | "flip";

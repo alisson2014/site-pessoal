@@ -2,8 +2,6 @@ import Button from "../../Atoms/Button";
 import { SubTittle } from "../../Atoms/StyledTexts";
 import { Content, TextContent } from "./style";
 
-const curriculo: string = require("./assets/curriculo.pdf");
-
 const AboutMe = () => {
   return (
     <Content>
@@ -16,7 +14,7 @@ const AboutMe = () => {
       </TextContent>
       <Button
         text="Baixe meu cv"
-        href={curriculo}
+        href="/assets/curriculo.pdf"
         download="curriculo-alisson"
       />
     </Content>
