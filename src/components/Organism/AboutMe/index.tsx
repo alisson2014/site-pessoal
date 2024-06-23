@@ -7,10 +7,10 @@ const AboutMe = () => {
     <Content>
       <SubTittle>Sobre mim</SubTittle>
       <TextContent>
-        Meu nome é alisson e sou apaixonado por tecnologia, atualmente curso análise de sistemas e sempre buscando novos conhecimentos no mundo da programação.
+        Meu nome é Alisson e sou apaixonado por tecnologia, atualmente sou estudante de Análise de Sistemas e estou sempre buscando novos conhecimentos no mundo da programação e tecnologia em geral.
       </TextContent>
       <TextContent>
-        Atuo analista de sistemas, realizando a componentização e modularização de um sistema legado PHP.
+        Atuo como Desenvolvedor FullStack, realizando a componentização e modularização de um sistema legado utilizando as stacks PHP, ReactJS e Docker.
       </TextContent>
       <Button
         text="Baixe meu cv"
