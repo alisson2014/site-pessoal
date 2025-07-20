@@ -9,6 +9,7 @@ export const AbilitiesConatiner = styled.div`
   height: 100vh;
 
   @media screen and (max-width: 1240px) {
-    margin: 50px 0;
+    min-height: 100vh;
+    height: auto; 
   }
 `

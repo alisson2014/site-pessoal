@@ -6,9 +6,9 @@ const Abilities = () => {
   return (
     <AbilitiesConatiner>
       <SubTittle>Habilidades</SubTittle>
-      <ThirdTittle>
+      {/* <ThirdTittle>
         Clique no card para ver a descrição
-      </ThirdTittle>
+      </ThirdTittle> */}
       <AbilitieBox />
     </AbilitiesConatiner>
   );

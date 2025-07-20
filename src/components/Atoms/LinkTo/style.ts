@@ -5,7 +5,6 @@ export const LinkLi = styled.li`
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 400;
-    transition: all 0.8s ease-in-out;
 
     @media (max-width: 960px) {
       font-size: 1.15rem;
@@ -13,7 +12,7 @@ export const LinkLi = styled.li`
 
     &:hover {
       cursor: pointer;
-      color: #151515;
+      color: #252525;
     }
   }
 `

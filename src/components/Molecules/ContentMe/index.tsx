@@ -8,7 +8,7 @@ const ContentMe = () => {
       <Atoms.MeTittle>
         Olá, eu sou o
         <Tittle>Alisson Vinícius</Tittle>
-        Desenvolvedor web
+        Analista de Sistemas
       </Atoms.MeTittle>
       <Button
         href="https://www.linkedin.com/in/alisson-vm-2014-alm/" text="Linkedin"

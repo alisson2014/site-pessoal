@@ -5,12 +5,17 @@ export const AboutContainer = styled.div`
   align-items: center;
   gap: 7rem;
   padding: 0 210px;
-  height: 100vh;
+  height: 100vh; 
 
   @media (max-width: 960px) {
     flex-direction: column;
-    gap: 30px;
-    padding: 0 35px;
-    margin: 30px 0;
+    justify-content: center; 
+    
+    min-height: 100vh;
+    height: auto; 
+
+    gap: 3rem; 
+    padding: 6rem 2rem; 
+    margin: 0; 
   }
 `

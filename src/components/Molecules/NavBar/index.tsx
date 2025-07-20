@@ -13,10 +13,10 @@ const NavBar = () => {
         {isOpen ? <FaTimes /> : <FaBars />}
       </MobileIcon>
         <NavMenu isOpen={isOpen}>
-          <LinkTo route="/home" section="Home" title="Ir para a seção Home" onClick={handleClick} />
-          <LinkTo route="/about" section="Sobre" title="Ir para a seção Sobre" onClick={handleClick} />
-          <LinkTo route="/projects" section="Projetos" title="Ir para a seção Projetos" onClick={handleClick} />
-          <LinkTo route="/abilities" section="Habilidades" title="Ir para a seção Habilidades" onClick={handleClick} />
+          <LinkTo route="home" section="Home" title="Ir para a seção Home" onClick={handleClick} />
+          <LinkTo route="about" section="Sobre" title="Ir para a seção Sobre" onClick={handleClick} />
+          <LinkTo route="projects" section="Projetos" title="Ir para a seção Projetos" onClick={handleClick} />
+          <LinkTo route="abilities" section="Habilidades" title="Ir para a seção Habilidades" onClick={handleClick} />
         </NavMenu>
     </Nav>
   );

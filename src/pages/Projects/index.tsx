@@ -7,9 +7,7 @@ const Projects = () => {
     <ProjectsContainer>
       <SubTittle>Projetos</SubTittle>
       <ProjectsBox />
-      <Link
-        href="https://github.com/alisson2014?tab=repositories" target="_blank"
-      >
+      <Link href="https://github.com/alisson2014?tab=repositories" target="_blank">
         Repositórios no github
       </Link>
     </ProjectsContainer>

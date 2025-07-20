@@ -8,6 +8,8 @@ export const ProjectsContainer = styled.div`
   gap: 35px;
 
   @media screen and (max-width: 960px) {
+    min-height: 100vh;
+    height: auto; 
     gap: 20px;
     margin: 20px 0;
   }
