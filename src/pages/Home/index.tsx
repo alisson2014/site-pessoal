@@ -1,10 +1,11 @@
 import { Avatar, ContentMe } from "components";
 import { HomeContainer } from "./atoms";
+import { IHome } from "./types";
 
-const Home = () => {
+const Home = ({ position, linkedin }: IHome) => {
   return (
     <HomeContainer>
-      <ContentMe />
+      <ContentMe position={position} linkedin={linkedin} />
       <Avatar />
     </HomeContainer>
   );

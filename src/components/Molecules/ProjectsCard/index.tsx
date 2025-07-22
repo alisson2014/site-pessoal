@@ -1,3 +1,4 @@
+import { Project } from "pages/LandingPage/types";
 import { ThirdTittle } from "../../Atoms/StyledTexts";
 import * as Atoms from "./atoms";
 
@@ -10,29 +11,31 @@ interface ICardProjects {
 }
 
 const CardProjects = ({
-  title, text, image, deployHref, repoHref
-}: ICardProjects) => {
+  name, description, image, deployLink, repository
+}: Project) => {
   return (
     <Atoms.PContainer>
-      <ThirdTittle>{title}</ThirdTittle>
-      <Atoms.ContentImg src={image} alt={title} title={title} />
-      <Atoms.TextContainer>{text}</Atoms.TextContainer>
-      {deployHref ? (
+      <ThirdTittle>{name}</ThirdTittle>
+      {image && (
+        <Atoms.ContentImg src={image.url} alt={image.title} title={image.title} />
+      )}
+      <Atoms.TextContainer>{description}</Atoms.TextContainer>
+      {deployLink ? (
         <Atoms.ButtonContainer>
           <Atoms.SMButton>
-            <a href={deployHref} target="_blank">
+            <a href={deployLink} target="_blank">
               Visualizar
             </a>
           </Atoms.SMButton>
           <Atoms.SMButton>
-            <a href={repoHref} target="_blank">
+            <a href={repository} target="_blank">
               Repositório
             </a>
           </Atoms.SMButton>
         </Atoms.ButtonContainer>
       ) : (
         <Atoms.SMButton>
-          <a href={repoHref} target="_blank">
+          <a href={repository} target="_blank">
             Repositório
           </a>
         </Atoms.SMButton>

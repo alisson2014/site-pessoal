@@ -1,8 +1,8 @@
 import CardProjects from "../../Molecules/ProjectsCard";
 import { BoxContainer } from "./style";
-import projects from "./projects.json";
+import { Project } from "pages/LandingPage/types";
 
-const ProjectsBox = () => {
+const ProjectsBox = ({ projects }: { projects: Project[] }) => {
   return (
     <BoxContainer>
       {projects.map((project) => (
