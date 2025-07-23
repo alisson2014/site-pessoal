@@ -1,6 +1,7 @@
+import React from "react";
 import * as Atoms from "./atoms";
 
-const Error404 = () => {
+const Error404: React.FC = () => {
   return (
     <Atoms.NFContainer>
       <Atoms.ContentTittle>

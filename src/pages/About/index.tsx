@@ -1,7 +1,8 @@
+import React from "react";
 import { AboutMe, AboutImg } from "components";
 import { AboutContainer } from "./style";
 
-const About = () => {
+const About: React.FC = () => {
   return (
     <AboutContainer>
       <AboutMe />

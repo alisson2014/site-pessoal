@@ -18,5 +18,6 @@ export const TextContent = styled.p`
 
   @media screen and (max-width: 960px) {
     font-size: 23px;
+    padding: 0 16px;  
   }
 `

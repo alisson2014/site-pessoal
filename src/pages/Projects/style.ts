@@ -1,12 +1,15 @@
 import styled from "styled-components"
 
-export const ProjectsContainer = styled.main`
+export const ProjectsContainer = styled.div`
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 35px;
 
   @media screen and (max-width: 960px) {
+    min-height: 100vh;
+    height: auto; 
     gap: 20px;
     margin: 20px 0;
   }

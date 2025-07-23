@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
-export const HomeContainer = styled.main`
+export const HomeContainer = styled.div`
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;

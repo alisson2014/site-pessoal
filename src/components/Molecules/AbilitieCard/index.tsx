@@ -10,18 +10,14 @@ interface IAbilitieCard {
 
 type FlipState = "" | "flip";
 
-const AbilitieCard = ({
+const AbilitieCard: React.FC<IAbilitieCard> = ({
   title, children, textContent
-}: IAbilitieCard) => {
-  const [flipState, setFlipState] = useState<FlipState>("")
+}) => {
+  const [flipState, setFlipState] = useState<FlipState>("");
 
-  const handleOnClick = () => {
-    if (flipState === "") {
-      setFlipState("flip")
-    } else {
-      setFlipState("")
-    }
-  }
+  const handleOnClick = (): void => {
+    setFlipState(prev => prev === "" ? "flip" : "");
+  };
 
   return (
     <Atoms.Card className={flipState} onClick={handleOnClick}>

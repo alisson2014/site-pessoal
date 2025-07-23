@@ -1,16 +1,25 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-scroll'; 
 import { LinkLi } from "./style";
+import styles from './styles.module.css';
+import React from 'react';
+import { ILinkTo } from './types';
 
-interface ILinkTo {
-  route: string
-  section: string
-  onClick?: () => void
-};
-
-const LinkTo = ({ route, section, onClick }: ILinkTo) => {
+const LinkTo: React.FC<ILinkTo> = ({ route, section, onClick, title, onSetActive }) => {
   return (
     <LinkLi>
-      <Link to={route} onClick={onClick}>{section}</Link>
+      <Link 
+        activeClass={styles.active} 
+        to={route} 
+        title={title} 
+        onClick={onClick} 
+        offset={-70} 
+        duration={500} 
+        spy 
+        smooth
+        onSetActive={onSetActive}
+      >
+        {section}
+      </Link>
     </LinkLi>
   );
 };

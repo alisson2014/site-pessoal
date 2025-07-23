@@ -1,7 +1,7 @@
 import { Avatar, ContentMe } from "components";
 import { HomeContainer } from "./atoms";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <HomeContainer>
       <ContentMe />

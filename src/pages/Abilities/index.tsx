@@ -1,8 +1,9 @@
+import React from "react";
 import { AbilitieBox } from "components";
 import { SubTittle, ThirdTittle } from "components/Atoms/StyledTexts";
 import { AbilitiesConatiner } from "./style";
 
-const Abilities = () => {
+const Abilities: React.FC = () => {
   return (
     <AbilitiesConatiner>
       <SubTittle>Habilidades</SubTittle>

@@ -1,21 +1,25 @@
+import { useAboutJson } from "context/AboutJsonContext/useAboutJson";
 import Button from "../../Atoms/Button";
 import { Tittle } from "../../Atoms/StyledTexts";
 import * as Atoms from "./atoms";
 
-const ContentMe = () => {
+const ContentMe: React.FC = () => {
+  const { position, linkedin } = useAboutJson();
+
   return (
     <Atoms.Content>
       <Atoms.MeTittle>
         Olá, eu sou o
         <Tittle>Alisson Vinícius</Tittle>
-        Desenvolvedor web
+        {position}
       </Atoms.MeTittle>
       <Button
-        href="https://www.linkedin.com/in/alisson-vm-2014-alm/" text="Linkedin"
+        href={linkedin}
+        text="Linkedin"
         target="blank"
       />
     </Atoms.Content>
   );
 };
 
-export default ContentMe;
+export default ContentMe
