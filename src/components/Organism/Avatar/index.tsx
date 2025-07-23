@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AvatarImg } from "./style";
+import { User } from "./types";
 
-const Avatar = () => {
-  const [user, setUser] = useState({
+const Avatar: React.FC = () => {
+  const [user, setUser] = useState<User>({
     avatar: "",
     name: ""
   });

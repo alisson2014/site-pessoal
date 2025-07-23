@@ -1,14 +1,15 @@
+import React from "react";
 import { AbilitieBox } from "components";
 import { SubTittle, ThirdTittle } from "components/Atoms/StyledTexts";
 import { AbilitiesConatiner } from "./style";
 
-const Abilities = () => {
+const Abilities: React.FC = () => {
   return (
     <AbilitiesConatiner>
       <SubTittle>Habilidades</SubTittle>
-      {/* <ThirdTittle>
+      <ThirdTittle>
         Clique no card para ver a descrição
-      </ThirdTittle> */}
+      </ThirdTittle>
       <AbilitieBox />
     </AbilitiesConatiner>
   );

@@ -1,13 +1,14 @@
+import { useAboutJson } from "context/AboutJsonContext/useAboutJson";
 import CardProjects from "../../Molecules/ProjectsCard";
 import { BoxContainer } from "./style";
-import { Project } from "pages/LandingPage/types";
+import React from "react";
 
-const ProjectsBox = ({ projects }: { projects: Project[] }) => {
+const ProjectsBox: React.FC = () => {
+  const { projects } = useAboutJson();
+
   return (
     <BoxContainer>
-      {projects.map((project) => (
-        <CardProjects {...project} />
-      ))}
+      {projects.map(project => <CardProjects {...project} key={project.id} />)}
     </BoxContainer>
   );
 };

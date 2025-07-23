@@ -1,11 +1,10 @@
 import { Avatar, ContentMe } from "components";
 import { HomeContainer } from "./atoms";
-import { IHome } from "./types";
 
-const Home = ({ position, linkedin }: IHome) => {
+const Home: React.FC = () => {
   return (
     <HomeContainer>
-      <ContentMe position={position} linkedin={linkedin} />
+      <ContentMe />
       <Avatar />
     </HomeContainer>
   );

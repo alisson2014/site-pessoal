@@ -1,10 +1,12 @@
+import React from "react";
 import Button from "../../Atoms/Button";
 import { SubTittle } from "../../Atoms/StyledTexts";
 import { Content, TextContent } from "./style";
+import { useAboutJson } from "context/AboutJsonContext/useAboutJson";
 
-const url = "https://gist.githubusercontent.com/alisson2014/1edbcd76bd234bc1fa1b4900bf2252eb/raw/feeec97c2dd9923c25e103dc4d4c515f6bc9fd70/json";
-
-const AboutMe = ({ about }: { about: string }) => {
+const AboutMe: React.FC = () => {
+  const { about } = useAboutJson();
+  
   return (
     <Content>
       <SubTittle>Sobre mim</SubTittle>

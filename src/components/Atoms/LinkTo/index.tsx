@@ -1,16 +1,10 @@
 import { Link } from 'react-scroll'; 
 import { LinkLi } from "./style";
 import styles from './styles.module.css';
+import React from 'react';
+import { ILinkTo } from './types';
 
-interface ILinkTo {
-  route: string
-  title: string;
-  section: string;
-  onClick?: () => void;
-  onSetActive?: (section: string) => void;
-};
-
-const LinkTo = ({ route, section, onClick, title, onSetActive }: ILinkTo) => {
+const LinkTo: React.FC<ILinkTo> = ({ route, section, onClick, title, onSetActive }) => {
   return (
     <LinkLi>
       <Link 

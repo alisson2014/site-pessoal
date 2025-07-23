@@ -1,7 +1,8 @@
+import React from "react";
 import SocialList from "../../Molecules/SocialList";
 import { SocialItemsContainer } from "./style";
 
-const SocialItems = () => {
+const SocialItems: React.FC = () => {
   return (
     <SocialItemsContainer>
       <SocialList />

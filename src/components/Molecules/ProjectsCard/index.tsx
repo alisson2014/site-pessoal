@@ -1,18 +1,11 @@
-import { Project } from "pages/LandingPage/types";
+import { Project } from "context/AboutJsonContext/types";
 import { ThirdTittle } from "../../Atoms/StyledTexts";
 import * as Atoms from "./atoms";
+import React from "react";
 
-interface ICardProjects {
-  title: string
-  text: string
-  image: string
-  deployHref?: string
-  repoHref: string
-}
-
-const CardProjects = ({
+const CardProjects: React.FC<Project> = ({
   name, description, image, deployLink, repository
-}: Project) => {
+}) => {
   return (
     <Atoms.PContainer>
       <ThirdTittle>{name}</ThirdTittle>

@@ -1,8 +1,9 @@
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { Error404, Layout } from "pages";
 import LandingPage from "pages/LandingPage";
 
-const AppRouter = () => {
+const AppRouter: React.FC = () => {
   return (
     <Routes>
       <Route path="*" element={<Error404 />} />

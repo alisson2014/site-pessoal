@@ -1,3 +1,9 @@
+import { ReactNode } from 'react';
+
+export interface AboutJsonProviderProps {
+    children: ReactNode;
+};
+
 export interface Project {
     id: number,
     name: string,
@@ -10,7 +16,7 @@ export interface Project {
     }
 };
 
-export interface Infos {
+export interface AboutJsonContextType {
     name: string;
     lastName: string;
     age: number;

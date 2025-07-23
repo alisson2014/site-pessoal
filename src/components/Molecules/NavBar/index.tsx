@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { MobileIcon, Nav, NavMenu } from "./style";
 import LinkTo from "../../Atoms/LinkTo";
 
-const NavBar = () => {
+const NavBar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [activeSection, setActiveSection] = useState<string>("");
+  const [activeSection, setActiveSection] = useState<string>("Home");
 
   const handleClick = (): void => setIsOpen(prev => !prev);
 

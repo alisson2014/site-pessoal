@@ -1,6 +1,7 @@
+import React from "react";
 import { AbImg } from "./style";
 
-const AboutImg = () => {
+const AboutImg: React.FC = () => {
   return (
     <AbImg>
       <figure>
@@ -11,7 +12,6 @@ const AboutImg = () => {
         </figcaption>
         <img src="/assets/tech.avif" alt="image" />
       </figure>
-
     </AbImg>
   );
 };

@@ -1,13 +1,13 @@
 import { ProjectsBox } from "components";
 import { SubTittle } from "components/Atoms/StyledTexts";
 import { ProjectsContainer, Link } from "./style";
-import { Project } from "pages/LandingPage/types";
+import React from "react";
 
-const Projects = ({ projects }: { projects: Project[] }) => {
+const Projects: React.FC = () => {
   return (
     <ProjectsContainer>
       <SubTittle>Projetos</SubTittle>
-      <ProjectsBox projects={projects} />
+      <ProjectsBox />
       <Link href="https://github.com/alisson2014?tab=repositories" target="_blank">
         Repositórios no github
       </Link>

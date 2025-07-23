@@ -1,6 +1,7 @@
+import React from "react";
 import { Logo as LogoComponent } from "./atoms";
 
-const Logo = () => {
+const Logo: React.FC = () => {
   return (
     <LogoComponent>
         Alisson

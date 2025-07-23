@@ -1,9 +1,11 @@
+import { useAboutJson } from "context/AboutJsonContext/useAboutJson";
 import Button from "../../Atoms/Button";
 import { Tittle } from "../../Atoms/StyledTexts";
 import * as Atoms from "./atoms";
-import { IContentMeProps } from "./types";
 
-const ContentMe = ({ position, linkedin }: IContentMeProps) => {
+const ContentMe: React.FC = () => {
+  const { position, linkedin } = useAboutJson();
+
   return (
     <Atoms.Content>
       <Atoms.MeTittle>
