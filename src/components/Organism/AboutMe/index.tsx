@@ -13,7 +13,7 @@ const AboutMe: React.FC = () => {
       <TextContent>{about}</TextContent>
       <Button
         text="Baixe meu cv"
-        href="https://drive.google.com/uc?export=download&id=1wSFFijux-xwwfXlcjynkMWEiM15H1sz8"
+        href="https://drive.google.com/uc?export=download&id=1bKOw0zQEGpQUbxMZSi8zO8mbHs9POUFI"
         download="curriculo-alisson-dev.pdf"
       />
     </Content>
